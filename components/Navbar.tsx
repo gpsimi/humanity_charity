@@ -9,6 +9,7 @@ import { navLinks, NavItem } from '@/constants/page';
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils';
 import { Button } from './ui/button'
+import MobileNav from './MobileNav';
 
 
 
@@ -103,10 +104,10 @@ const Navbar: React.FC = () => {
               </ul>
             </div>
           </div>
-          <Button className='bg-orange-1 py-3 px-6 rounded-lg text-white'>Donate</Button>
+          <Button className='bg-orange-1 py-3 px-6 rounded-full text-white'>Donate</Button>
 
         </div>
-
+          <MobileNav />
       </div>
     </nav>
 

@@ -19,7 +19,7 @@
   }
 
   .navTextColor{
-    @apply font-semibold hover:text-orange-1;
+    @apply font-semibold text-[15px] hover:text-orange-1;
   }
  
 }
