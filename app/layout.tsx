@@ -1,8 +1,32 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Shippori_Mincho, Sue_Ellen_Francisco, Work_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import TopNav from "@/components/TopNav";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const shipporiMincho = Shippori_Mincho({
+  subsets: ['latin'],
+  weight: ['800'],
+  display: 'swap',
+  variable: '--font-shippori-mincho'
+});
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  weight: ['400'],
+  display: 'swap',
+  variable: '--font-work-sans',
+});
+const sueEllen = Sue_Ellen_Francisco({
+  subsets: ['latin'],
+  weight: ['400'],
+  display: 'swap',
+  variable: '--font-sue-ellen'
+})
+
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +39,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${shipporiMincho.variable} ${workSans.variable} ${sueEllen.variable}`}>
+      <body>
+        <TopNav />
+        <Navbar/>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
