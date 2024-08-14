@@ -44,7 +44,7 @@ const Footer = () => {
                     href={link.route}
                     target="_blank"
                     key={link.label}
-                    className="bg-green-4 p-3 rounded-full"
+                    className="bg-green-4 hover:bg-orange-1 p-3 rounded-full"
                   >
                     <Image
                       src={link.imgUrl}
