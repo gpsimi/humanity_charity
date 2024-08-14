@@ -16,7 +16,7 @@ export const contactdetails =[
 export const navsocials =[
     {
         label: 'Instagram',
-        route: '/',
+        route: 'https://www.instagram.com/',
         imgUrl: '/icons/nav-insta.svg',
     },
     {
@@ -86,7 +86,122 @@ export const navLinks : NavItem[] = [
 ]
 
 
+export const footersocials =[
+    {
+        label: 'Instagram',
+        route: 'https://www.instagram.com/',
+        imgUrl: '/images/footer/footer-insta.png',
+    },
+    {
+        label: 'Facebook',
+        route: 'https://www.facebook.com/',
+        imgUrl: '/images/footer/footer-fb.png',
+    },
+    {
+        label: 'Twitter',
+        route: 'https://www.x.com/',
+        imgUrl: '/images/footer/footer-twitter.png',
+    },
+    {
+        label: 'Pinterest',
+        route: 'https://www.pinterest.com/',
+        imgUrl: '/images/footer/footer-pintrest.png',
+    },
+]
 
+export const footerLinks = [
+    {
+        title: "Get Involved",
+        "mainLinks": [
+            {
+    
+                label: 'About Us',
+                route: '/about-us',
+            },
+            {
+    
+                label: 'Volunteers',
+                route: '/volunteers',
+            },
+            {
+    
+                label: 'Our Causes',
+                route: '/our-causes',
+            },
+            {
+    
+                label: 'Projects',
+                route: '/projects',
+            },
+            {
+    
+                label: 'Team',
+                route: '/our-team',
+            },
+        ],
+    },
+    {
+        title: "Utility",
+        "mainLinks": [
+            {
+    
+                label: 'About Us',
+                route: '/about-us',
+            },
+            {
+    
+                label: 'Volunteers',
+                route: '/volunteers',
+            },
+            {
+    
+                label: 'Our Causes',
+                route: '/our-causes',
+            },
+            {
+    
+                label: 'Projects',
+                route: '/projects',
+            },
+            {
+    
+                label: 'Team',
+                route: '/our-team',
+            },
+        ],
+    },
+    {
+        title: "Contact",
+        "mainLinks": [
+            {
+    
+                label: '660 Broklyn street, 88 New York',
+                route: '/about-us',
+            },
+            {
+    
+                label: 'Volunteers',
+                route: '/volunteers',
+            },
+            {
+    
+                label: 'Our Causes',
+                route: '/our-causes',
+            },
+            {
+    
+                label: 'info@charity.com',
+                route: 'mail-to:info@charity.com',
+            },
+            {
+    
+                label: '222 888 0000',
+                route: 'tel:222 888 0000',
+            },
+        ],
+    },
+    
+]
 
 
   
