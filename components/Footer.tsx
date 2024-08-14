@@ -5,6 +5,7 @@ import { footerLinks, footersocials } from "@/constants/page";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { cn } from '@/lib/utils';
 
 const Footer = () => {
 
@@ -64,23 +65,34 @@ const Footer = () => {
         <div className="bg-green-4 py-8 px-5 flex">
           <ul className="flex md:flex-row flex-col gap-8 md:gap-16">
             {footerLinks.map((item) => {
+
+
+
               return (
+
+
+
                 <li key={item.title}>
                   <h4 className="text-white font-serif text-[18px] mb-4">
                     {item.title}
                   </h4>
                   <ul>
-                    {item.mainLinks.map((link) => (
-                      <li key={link.label} className="mb-1">
-                        <Link
-                          href={link.route}
-                          target="_blank"
-                          className="text-white text-sm hover:text-orange-1"
-                        >
-                          {link.label}
-                        </Link>
-                      </li>
-                    ))}
+                    {item.mainLinks.map((link) => {
+
+                      const isActive = pathname === link.route || pathname.startsWith(`${link.route}/`);
+
+                      return (
+
+                        <li key={link.label} className="mb-1">
+                          <Link
+                            href={link.route}
+                            className={cn("text-white text-sm hover:text-orange-1", { "text-orange-1": isActive, })}
+                          >
+                            {link.label}
+                          </Link>
+                        </li>
+                      )
+                    })}
                   </ul>
                 </li>
               )
