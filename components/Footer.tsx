@@ -1,9 +1,15 @@
+'use client'
+
 import React from "react";
 import { footerLinks, footersocials } from "@/constants/page";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
+
+  const pathname = usePathname();
+
   return (
     <section className="w-full z-50 bg-dark-1 py-4">
       <div className="container mx-auto md:max-w-[1280px] flex justify-between md:flex-row flex-col py-8 gap-8">
@@ -94,7 +100,7 @@ const Footer = () => {
 
       {/* //Copyright */}
 
-      <div className="mb-2">
+      <div className="mb-2 container mx-auto">
         <p className="text-white text-center text-[14px]">
           Copyright © Walfare | Designed by VictorFlow Templates - Powered by
           Webflow
