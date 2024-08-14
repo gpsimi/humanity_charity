@@ -145,28 +145,28 @@ export const footerLinks = [
         "mainLinks": [
             {
     
-                label: 'About Us',
-                route: '/about-us',
+                label: 'Style Guide',
+                route: '/#',
             },
             {
     
-                label: 'Volunteers',
-                route: '/volunteers',
+                label: 'Licences',
+                route: '/#',
             },
             {
     
-                label: 'Our Causes',
-                route: '/our-causes',
+                label: 'Password',
+                route: '/#',
             },
             {
     
-                label: 'Projects',
-                route: '/projects',
+                label: '404 Page',
+                route: '/#',
             },
             {
     
-                label: 'Team',
-                route: '/our-team',
+                label: 'Changelog',
+                route: '/#',
             },
         ],
     },
@@ -176,18 +176,18 @@ export const footerLinks = [
             {
     
                 label: '660 Broklyn street, 88 New York',
-                route: '/about-us',
+                route: '/#',
             },
-            {
+            // {
     
-                label: 'Volunteers',
-                route: '/volunteers',
-            },
-            {
+            //     label: 'Volunteers',
+            //     route: '/volunteers',
+            // },
+            // {
     
-                label: 'Our Causes',
-                route: '/our-causes',
-            },
+            //     label: 'Our Causes',
+            //     route: '/our-causes',
+            // },
             {
     
                 label: 'info@charity.com',
