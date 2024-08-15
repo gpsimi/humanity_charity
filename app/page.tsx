@@ -1,11 +1,10 @@
+import Hero from "@/components/Hero";
 
 
 export default function Home() {
   return (
-    <main className="">
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
-    </main>
+    <section className="flex size-full ">
+      <Hero />
+    </section>
   );
 }
