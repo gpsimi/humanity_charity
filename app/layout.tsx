@@ -8,13 +8,13 @@ import TopNav from "@/components/TopNav";
 
 const shipporiMincho = Shippori_Mincho({
   subsets: ['latin'],
-  weight: ['800'],
+  weight: ['400', '500', '600', '800'],
   display: 'swap',
   variable: '--font-shippori-mincho'
 });
 const workSans = Work_Sans({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['400', '500', '600', '800'],
   display: 'swap',
   variable: '--font-work-sans',
 });
