@@ -104,7 +104,9 @@ const Navbar: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <Button className='bg-orange-1 py-3 px-6 rounded-full text-white'>Donate</Button>
+            <Button className='bg-orange-1 py-3 px-6 rounded-full text-white'>
+              <Link href="/our-causes">Donate</Link>
+            </Button>
           </div>
           <MobileNav />
         </div>

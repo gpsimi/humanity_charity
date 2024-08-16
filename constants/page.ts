@@ -70,6 +70,11 @@ export const navLinks : NavItem[] = [
             },
             {
     
+                label: 'Projects',
+                route: '/our-projects',
+            },
+            {
+    
                 label: 'Blog',
                 route: '/blog',
             },
