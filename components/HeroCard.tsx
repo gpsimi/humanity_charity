@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroCard = () => {
   return (
@@ -8,7 +9,6 @@ const HeroCard = () => {
       <div className="container mx-auto max-w-[1200px] px-4 py-20">
         <div className="absolute -mt-[180px] left-0 right-0 container max-w-[1280px] mx-auto py-10">
           <div className="grid grid-cols-1 md:grid-cols-3">
-            
             <div className="bg-green-1 flex-start">
               <h3 className="herocardHeader text-dark-1 max-w-[250px]">
                 Education
@@ -17,9 +17,7 @@ const HeroCard = () => {
                 Below Poverty Line is enchmark used by the government of India
                 economic disadvantage.
               </p>
-              <Button className="mt-4 button-white">
-                Discover
-              </Button>
+              <Button className="mt-4 button-white">Discover</Button>
             </div>
 
             <div className="bg-dark-1 flex-start">
@@ -29,11 +27,37 @@ const HeroCard = () => {
               <p className="text-white herocardText">
                 Below Poverty Line is enchmark used by the government
               </p>
-              <Link className="button-link" href="/our-causes">Join Organization</Link>
+              <Link className="button-link" href="/our-causes">
+                Join Organization
+              </Link>
             </div>
-            
-            <div className="bg-red-500 flex-start">
+
+            {/* <div
+              className="bg-herocardImage relative bg-cover bg-center bg-no-repeat p-6"
               
+            >
+              <div className="absolute inset-0 bg-red-500 opacity-50"></div>
+              <div className="relative z-10">
+               
+              </div>
+            </div> */}
+
+            <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat">
+              <div className="absolute inset-0 bg-orange-1 opacity-50" />
+              <div className=" flex justify-center">
+                <Link
+                  href="/"
+                  target="_blank"
+                  className="p-5 bg-white rounded-full z-50 "
+                >
+                  <Image
+                    src="./icons/play-button.svg"
+                    alt=""
+                    width={20}
+                    height={14}
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
