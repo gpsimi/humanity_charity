@@ -24,8 +24,16 @@
   .navTextColor{
     @apply font-semibold text-[15px] hover:text-orange-1;
   }
-  .hero-button{
-    @apply py-4 px-8 md:px-12 rounded-full uppercase;
+
+  /* Button Styles */
+  .button-white{
+    @apply py-4 px-8 md:px-12 rounded-full uppercase bg-white text-dark-1;
+  }
+  .button-orange{
+    @apply py-4 px-8 md:px-12 rounded-full uppercase bg-orange-1 text-white;
+  }
+  .button-link{
+    @apply text-white herocardText uppercase underline underline-offset-2 hover:no-underline;
   }
  
 }

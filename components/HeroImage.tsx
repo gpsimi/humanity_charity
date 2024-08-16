@@ -25,10 +25,10 @@ const HeroImage = () => {
         </div>
 
         <div className="flex flex-row gap-4">
-          <Button className="bg-orange-1 text-white hero-button" asChild>
+          <Button className="button-orange" asChild>
             <Link href="/our-causes">Donate</Link>
           </Button>
-          <Button className="bg-white text-orange-1 hero-button">
+          <Button className="button-white">
             Discover
           </Button>
         </div>
