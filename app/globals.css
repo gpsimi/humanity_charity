@@ -17,6 +17,9 @@
   .flex-between {
     @apply flex justify-between items-center;
   }
+  .flex-start{
+    @apply flex flex-col items-start justify-center p-8;
+  }
 
   .navTextColor{
     @apply font-semibold text-[15px] hover:text-orange-1;
@@ -27,8 +30,16 @@
  
 }
 
+.herocardHeader{
+  @apply text-[20px] md:text-[25px] font-bold font-serif;
+}
+
+.herocardText{
+  @apply  mt-2 max-w-[270px] font-sans;
+}
+
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(243, 207, 207, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(4px);
 }
@@ -37,5 +48,6 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+
 
 
