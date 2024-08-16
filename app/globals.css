@@ -38,6 +38,9 @@
  
 }
 
+
+/* Hero Card Styles */
+
 .herocardHeader{
   @apply text-[20px] md:text-[25px] font-bold font-serif;
 }
@@ -46,8 +49,11 @@
   @apply  mt-2 max-w-[270px] font-sans;
 }
 
+
+/* Glassmorphism Styles */
+
 .glassmorphism {
-  background: rgba(243, 207, 207, 0.8);
+  background: rgba(245, 244, 244, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(4px);
 }
