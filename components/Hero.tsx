@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="flex h-screen md:h-[85vh] w-full bg-hero bg-cover relative">
             <div className="absolute inset-0 bg-gradient-to-r from-black to-dark- opacity-80" />
-            <div className="container mx-auto md:max-w-[1280px] flex flex-col h-full justify-center items-start z-50">
+            <div className="container mx-auto md:max-w-[1280px] flex flex-col h-full justify-center items-start z-30">
                 <h5 className="text-white font-mono text-[30px] md:text-[35px]">
                     Need Help...
                 </h5>
