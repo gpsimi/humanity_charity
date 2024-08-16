@@ -72,7 +72,6 @@ const Navbar: React.FC = () => {
                               </svg>
                             </button>
                             <ul
-
                               className={`${dropdownOpen === item.label
                                 ? "block"
                                 : "hidden"
