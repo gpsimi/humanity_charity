@@ -1,6 +1,4 @@
 
-
-
 import HomeAbout from "@/components/sections/HomeSection/HomeAbout";
 import HomeHero from "@/components/sections/HomeSection/HomeHero";
 
