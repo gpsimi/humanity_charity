@@ -8,18 +8,6 @@ import React from 'react'
 
 const HomeAbout = () => {
 
-  const donationItems = [
-    "Food Donation",
-    "Money Donation",
-    "Dress Donation",
-    "Water Supply",
-    "Education Donation",
-    "Toys Donation",
-  ];
-
-
-
-
   return (
     <section className='md:py-16 py-8'>
       <div className='container mx-auto max-w-[1280px] '>
