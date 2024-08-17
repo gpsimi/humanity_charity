@@ -41,6 +41,7 @@ const config = {
           1: '#F1EEEC',
           2: '#ECF1F0',
           3: '#F2F2F2',
+          4: '#C5CECC',
         },
       },
       // borderRadius: {

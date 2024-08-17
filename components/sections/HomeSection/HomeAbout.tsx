@@ -24,6 +24,7 @@ const HomeAbout = () => {
     <section className='md:py-16 py-8'>
       <div className='container mx-auto max-w-[1280px] '>
         <div className='flex flex-col md:flex-row gap-8'>
+
           <div className='w-full md:w-1/2 gap-x-16'>
             <h5 className="bodySubtext-orange">
               Need Help...
@@ -42,7 +43,6 @@ const HomeAbout = () => {
           </div>
 
           <div className='w-full md:w-1/2'>
-
             <div className="bg-gray-2 p-4 md:p-12 gap-y-4 flex flex-col  mx-auto">
               <ul className="grid grid-cols-2 gap-2 mb-4">
                 {homeAbout.map((item) => (
@@ -61,57 +61,27 @@ const HomeAbout = () => {
                 ))}
               </ul>
               <div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Total Donation</h3>
+                <h3 className="text-[20px] font-serif font-bold text-dark-1 mb-2">Total Donation</h3>
                 <div className="relative pt-1">
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
+                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-4">
                     <div
                       style={{ width: "50%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                    ></div>
+                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-orange-1"
+                    />
                   </div>
                 </div>
-                <div className="flex justify-between text-gray-700 mb-4">
-                  <span>Collection - $5M</span>
-                  <span>Goal - $10M</span>
+                <div className="flex justify-between text-gray-7000 mb-4">
+                  <span className='text-[14px] font-bold font-serif'>Collection - $5M</span>
+                  <span className='text-[14px] font-bold font-serif'>Goal - $10M</span>
                 </div>
               </div>
 
-              
-              <Button className="button-white">
-                DONATE NOW
-              </Button>
-            </div>
-
-
-
-
-
-
-            {/* <div className="bg-gray-2 p-4 md:p-8 gap-y-6 flex flex-col">
-              <ul className="grid grid-cols-2 gap-1 md:gap-2">
-                {homeAbout.map((item) => (
-                    <li className='flex '>
-                      <div className='flex items-center justify-between gap-2'>
-                        <Image
-                          src={item.icon}
-                          alt={item.label}
-                          width={15}
-                          height={10}
-                          className='w-[20px] h-[20px]'
-                        />
-                        <p className='text-dark-1'>{item.label}</p>
-                      </div>
-                    </li>
-                ))}
-              </ul>
-
               <div className=''>
-                <Button className="button-white">
-                  Discover Now
+                <Button className="button-white max-md:w-full">
+                  DONATE NOW
                 </Button>
               </div>
-            </div> */}
-
+            </div>
           </div>
         </div>
       </div>
