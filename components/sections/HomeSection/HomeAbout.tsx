@@ -2,7 +2,11 @@ import React from 'react'
 
 const HomeAbout = () => {
   return (
-    <div>HomeAbout</div>
+    <section className='md:py-16 py-8'>
+      <div className='container mx-auto max-w-[1280px] '>
+        HomeAbout
+      </div>
+    </section>
   )
 }
 
