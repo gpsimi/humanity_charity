@@ -44,19 +44,16 @@ const HeroCard = () => {
 
             <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat">
               <div className="absolute inset-0 bg-orange-1 opacity-50" />
-              <div className=" flex justify-center">
-                <Link
-                  href="/"
-                  target="_blank"
-                  className="p-5 bg-white rounded-full z-50 "
-                >
-                  <Image
-                    src="./icons/play-button.svg"
-                    alt=""
-                    width={20}
-                    height={14}
-                  />
-                </Link>
+              <div className="relative z-10 flex justify-center items-center h-full">
+              <Link href="/" className="bg-white p-5 rounded-full z-50">
+                <Image
+                  src="/icons/play-button.svg"
+                  alt="play-button"
+                  width={10}
+                  height={10}
+                  className="w-3"
+                />
+              </Link>
               </div>
             </div>
           </div>
