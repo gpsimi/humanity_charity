@@ -1,13 +1,18 @@
 
-import Hero from "@/components/pages/Hero";
+
+
+import HomeAbout from "@/components/sections/HomeSection/HomeAbout";
+import HomeHero from "@/components/sections/HomeSection/HomeHero";
+
+
            
 
 
 export default function Home() {
   return (
     <section className="flex size-full flex-col">
-      <Hero />
-      
+      <HomeHero />
+      <HomeAbout />
     </section>
   );
 }
