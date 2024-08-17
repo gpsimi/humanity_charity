@@ -91,6 +91,35 @@ export const navLinks : NavItem[] = [
 ]
 
 
+export const homeAbout = [
+    {
+        label: 'Food Donation',
+        icon: '/icons/tick.svg',
+    },
+    {
+        label: 'Water Supply',
+        icon: '/icons/tick.svg',
+    },
+    {
+        label: 'Money Donation',
+        icon: '/icons/tick.svg',
+    },
+    {
+        label: 'Education Donation',
+        icon: '/icons/tick.svg',
+    },
+    {
+        label: 'Dress Donation',
+        icon: '/icons/tick.svg',
+    },
+    {
+        label: 'Toys Donation',
+        icon: '/icons/tick.svg',
+    },
+]
+
+
+
 export const footersocials =[
     {
         label: 'Instagram',
