@@ -9,7 +9,7 @@ import React from 'react'
 const HomeAbout = () => {
 
   return (
-    <section className='md:py-16 py-8'>
+    <section className='md:py-24 py-12'>
       <div className='container mx-auto max-w-[1280px] '>
         <div className='flex flex-col md:flex-row gap-8'>
 
