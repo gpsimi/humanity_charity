@@ -96,20 +96,12 @@ function PreviousNextMethods() {
                                 <Button className="button-dark">
                                     <Link href={`/causes/${donation.id}`}>Donate</Link>
                                 </Button>
-
                             </div>
                         </div>
-
                     ))}
 
                 </Slider>
                 <div className="mt-6 flex gap-12 justify-center">
-                    {/* <button className="button" onClick={previous}>
-                        Previous
-                    </button> */}
-                    {/* <button className="button" onClick={next}>
-                        Next
-                    </button> */}
                     <Button variant="outline" className="bg-white rounded-full" size="icon" onClick={previous}>
                         <ChevronLeft className="h-5 w-8 text-dark-1" />
                     </Button>
