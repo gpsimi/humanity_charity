@@ -43,7 +43,7 @@ const HomeAbout = () => {
                         height={10}
                         className='w-[20px] h-[20px]'
                       />
-                      <p className='text-dark-1'>{item.label}</p>
+                      <p className='text-dark-2'>{item.label}</p>
                     </div>
                   </li>
                 ))}
@@ -59,8 +59,8 @@ const HomeAbout = () => {
                   </div>
                 </div>
                 <div className="flex justify-between text-gray-7000 mb-4">
-                  <span className='text-[14px] font-bold font-serif'>Collection - $5M</span>
-                  <span className='text-[14px] font-bold font-serif'>Goal - $10M</span>
+                  <span className='spanDark'>Collection - $5M</span>
+                  <span className='spanDark'>Goal - $10M</span>
                 </div>
               </div>
 

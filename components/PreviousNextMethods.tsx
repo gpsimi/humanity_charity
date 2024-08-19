@@ -70,13 +70,13 @@ function PreviousNextMethods() {
                                     alt={donation.title}
                                     width={400}
                                     height={50}
-                                    className="object-cover"
+                                    className="object-cover md:w-[400px] w-[350px]"
                                 />
                                 <div className="absolute top-5 left-4 bg-white font-bold font-serif px-2 py-1 text-orange-1">
                                     {donation.percentage}
                                 </div>
                             </div>
-                            <div className="p-6 bg-white w-[400px]">
+                            <div className="p-6 bg-white md:w-[400px] w-[350px]">
                                 <h3 className="h3">
                                     {donation.title}
                                 </h3>
