@@ -76,7 +76,7 @@ function PreviousNextMethods() {
                                     {donation.percentage}
                                 </div>
                             </div>
-                            <div className="p-6 bg-white md:w-[400px] w-[350px]">
+                            <div className="p-4 md:p-6 bg-white md:w-[400px] w-[350px]">
                                 <h3 className="h3">
                                     {donation.title}
                                 </h3>
@@ -93,7 +93,7 @@ function PreviousNextMethods() {
                                     <span className='spanOrange'>Goal - {donation.goal}</span>
                                 </div>
 
-                                <Button className="button-dark">
+                                <Button className="button-dark max-md:mb-3">
                                     <Link href={`/causes/${donation.id}`}>Donate</Link>
                                 </Button>
                             </div>
