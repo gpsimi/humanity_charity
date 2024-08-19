@@ -1,6 +1,7 @@
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import PreviousNextMethods from '@/components/PreviousNextMethods'
 
 const HomeCauses = () => {
     return (
@@ -23,7 +24,7 @@ const HomeCauses = () => {
                 </div>
 
                 <div className='mt-8'>
-                    Sliders
+                    <PreviousNextMethods />
                 </div>
 
 

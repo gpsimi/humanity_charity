@@ -123,37 +123,74 @@ export const homeAbout = [
 export const homeCauses = [
     {
         id: 1,
-        image: "/path/to/image1.jpg",
+        image: "/images/home/home-causes/causes-1.png",
         percentage: "85%",
         title: "Big charity: build school for poor children",
         raised: "$5M",
         goal: "$10M",
-      },
-      {
+    },
+    {
         id: 2,
-        image: "/path/to/image2.jpg",
+        image: "/images/home/home-causes/causes-2.png",
         percentage: "75%",
         title: "Big charity: build school for poor children",
         raised: "$3M",
         goal: "$10M",
-      },
-      {
+    },
+    {
         id: 3,
-        image: "/path/to/image3.jpg",
+        image: "/images/home/home-causes/causes-3.png",
         percentage: "50%",
         title: "Big charity: build school for poor children",
         raised: "$5M",
         goal: "$10M",
-      },
-      {
+    },
+    {
         id: 4,
-        image: "/path/to/image4.jpg",
+        image: "/images/home/home-causes/causes-4.png",
         percentage: "75%",
         title: "Big charity: build school for poor children",
         raised: "$5M",
         goal: "$10M",
-      },
+    },
 ]
+
+
+
+export const donationData = [
+    {
+      id: 1,
+      image: "/path/to/image1.jpg",
+      percentage: "85%",
+      title: "Big charity: build school for poor children",
+      raised: "$5M",
+      goal: "$10M",
+    },
+    {
+      id: 2,
+      image: "/path/to/image2.jpg",
+      percentage: "75%",
+      title: "Big charity: build school for poor children",
+      raised: "$3M",
+      goal: "$10M",
+    },
+    {
+      id: 3,
+      image: "/path/to/image3.jpg",
+      percentage: "50%",
+      title: "Big charity: build school for poor children",
+      raised: "$5M",
+      goal: "$10M",
+    },
+    {
+      id: 4,
+      image: "/path/to/image4.jpg",
+      percentage: "75%",
+      title: "Big charity: build school for poor children",
+      raised: "$5M",
+      goal: "$10M",
+    },
+  ];
 
 
 

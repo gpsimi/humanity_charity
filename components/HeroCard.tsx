@@ -32,16 +32,6 @@ const HeroCard = () => {
               </Link>
             </div>
 
-            {/* <div
-              className="bg-herocardImage relative bg-cover bg-center bg-no-repeat p-6"
-              
-            >
-              <div className="absolute inset-0 bg-red-500 opacity-50"></div>
-              <div className="relative z-10">
-               
-              </div>
-            </div> */}
-
             <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat w-full h-[250px]">
               <div className="absolute inset-0 bg-orange-1 opacity-50" />
               <div className="relative z-10 flex justify-center items-center h-full">

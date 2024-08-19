@@ -1,3 +1,9 @@
+/* React Slcik CSS */
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -34,6 +40,9 @@
   }
   .button-link{
     @apply text-white herocardText uppercase underline underline-offset-2 hover:no-underline;
+  }
+  .button-dark{
+    @apply text-white herocardText rounded-full uppercase px-5 bg-dark-1;
   }
  
 }
@@ -73,6 +82,15 @@
   @apply text-white font-sans text-[16px] mb-5 max-w-xl;
 }
 
+.h3{
+  @apply text-[20px] font-serif font-bold text-dark-1 mb-2;
+}
+.spanDark{
+  @apply text-[14px] font-bold font-serif text-dark-1;
+}
+.spanOrange{
+  @apply text-[14px] font-bold font-serif text-orange-1;
+}
 
 /* Glassmorphism Styles */
 

@@ -49,7 +49,7 @@ const HomeAbout = () => {
                 ))}
               </ul>
               <div>
-                <h3 className="text-[20px] font-serif font-bold text-dark-1 mb-2">Total Donation</h3>
+                <h3 className="h3">Total Donation</h3>
                 <div className="relative pt-1">
                   <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-4">
                     <div
