@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import PreviousNextMethods from '@/components/PreviousNextMethods'
+import HomeCausesCard from '@/components/HomeCausesCard'
 
 const HomeCauses = () => {
     return (
@@ -24,7 +24,7 @@ const HomeCauses = () => {
                 </div>
 
                 <div className='mt-8'>
-                    <PreviousNextMethods />
+                    <HomeCausesCard />
                 </div>
 
 

@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-function PreviousNextMethods() {
+function HomeCausesCard() {
     let sliderRef = useRef<any>(null);
     const next = () => {
         sliderRef.current?.slickNext();
@@ -114,4 +114,4 @@ function PreviousNextMethods() {
     );
 }
 
-export default PreviousNextMethods;
+export default HomeCausesCard;
