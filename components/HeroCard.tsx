@@ -35,15 +35,15 @@ const HeroCard = () => {
             <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat w-full h-[250px]">
               <div className="absolute inset-0 bg-orange-1 opacity-50" />
               <div className="relative z-10 flex justify-center items-center h-full">
-              <Link href="/" className="bg-white p-5 rounded-full z-50">
-                <Image
-                  src="/icons/play-button.svg"
-                  alt="play-button"
-                  width={10}
-                  height={10}
-                  className="w-3"
-                />
-              </Link>
+                <Link href="/" className="bg-white p-5 rounded-full z-50">
+                  <Image
+                    src="/icons/play-button.svg"
+                    alt="play-button"
+                    width={10}
+                    height={10}
+                    className="w-3"
+                  />
+                </Link>
               </div>
             </div>
           </div>
