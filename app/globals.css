@@ -73,6 +73,9 @@
 .bodyText-white{
   @apply text-white font-serif text-2xl md:text-4xl font-bold mb-2 md:mb-6;
 }
+.bodyText-white-1{
+  @apply text-white font-serif text-xl md:text-3xl font-bold mb-4 md:mb-6;
+}
 
 
 .bodyParagraph-dark{
@@ -91,6 +94,15 @@
 .spanOrange{
   @apply text-[14px] font-bold font-serif text-orange-1;
 }
+
+/* Input Styles */
+.inputStyle{
+  @apply w-full p-2 border border-white bg-transparent focus:text-white placeholder:text-white;
+}
+.inputSpan{
+  @apply text-gray-2;
+}
+
 
 /* Glassmorphism Styles */
 
