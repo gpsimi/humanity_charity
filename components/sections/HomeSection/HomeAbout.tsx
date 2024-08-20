@@ -15,7 +15,7 @@ const HomeAbout = () => {
 
           <div className='w-full md:w-1/2 gap-x-16'>
             <h5 className="bodySubtext-orange">
-              Need Help...
+              About Us
             </h5>
             <h2 className="bodyText-dark">
               Help People, <br />
