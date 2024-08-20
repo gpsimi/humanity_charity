@@ -97,7 +97,7 @@
 
 /* Input Styles */
 .inputStyle{
-  @apply w-full p-2 border border-white bg-transparent focus:text-white placeholder:text-white;
+  @apply w-full p-2 border border-white bg-transparent focus:text-white placeholder:text-white text-white;
 }
 .inputSpan{
   @apply text-gray-2;
