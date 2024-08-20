@@ -19,10 +19,10 @@ const HomeVolunteer = () => {
               Join The Community To Give Education For Children
             </h2>
             <p className="bodyParagraph-white max-w-lg ">
-              Lorem Ipsum is simply dummy text of the printin typesetting  dummy text ever  when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br /> 
+              Lorem Ipsum is simply dummy text of the printin typesetting  dummy text ever  when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br />
             </p>
 
-            <Image 
+            <Image
               src="/images/home/volunteer.png"
               width={450}
               height={200}
