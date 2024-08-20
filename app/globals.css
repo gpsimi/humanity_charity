@@ -79,7 +79,7 @@
 
 
 .bodyParagraph-dark{
-  @apply text-dark-1 font-sans text-[16px] mb-5 max-w-xl;
+  @apply text-dark-1 font-sans text-[16px] mb-5;
 }
 .bodyParagraph-white{
   @apply text-white font-sans text-[16px] mb-5;
