@@ -25,7 +25,7 @@ const VolunteerForm: React.FC = () => {
     };
 
     return (
-        <div className="max-h-[550px] mx-auto border border-white px-6 py-8 md:px-12 md:py-12">
+        <div className="mx-auto border border-white px-6 py-8 md:px-12 md:py-12">
             <h2 className="bodyText-white-1">Become A Volunteer</h2>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 <div>

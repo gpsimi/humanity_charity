@@ -82,7 +82,7 @@
   @apply text-dark-1 font-sans text-[16px] mb-5 max-w-xl;
 }
 .bodyParagraph-white{
-  @apply text-white font-sans text-[16px] mb-5 max-w-xl;
+  @apply text-white font-sans text-[16px] mb-5;
 }
 
 .h3{
