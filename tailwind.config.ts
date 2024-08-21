@@ -26,6 +26,7 @@ const config = {
       colors: {
         orange: {
           1: '#FF6D6D',
+          2: '#E85353',
         },
         green: {
           1: '#77D7D3',
@@ -36,6 +37,7 @@ const config = {
         dark: {
           1: '#2E4049',
           2: '#727272',
+          3: '#202D33',
         },
         gray: {
           1: '#F1EEEC',
