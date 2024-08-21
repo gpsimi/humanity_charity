@@ -195,6 +195,25 @@ export const WhatWeDo = [
     },
 ]
 
+export const homeTestimonial =[
+    {
+        id: 1,
+        image: "/images/testimonial/image-1.png",
+        icon: "/images/testimonial/quote.png",
+        name: "Belli Smith",
+        position: "Designer",
+        testimony: "Centuries but also the leap into electronic typesetting,established fact that a reader will bdistracted the readable content.",
+    },
+    {
+        id: 2,
+        image: "/images/testimonial/image-2.png",
+        icon: "/images/testimonial/quote.png",
+        name: "Sara Taylor",
+        position: "Donator",
+        testimony: "Centuries but also the leap into electronic typesetting,established fact that a reader will bdistracted the readable content.",
+    },
+]
+
 
 
 
