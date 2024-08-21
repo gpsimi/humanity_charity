@@ -2,6 +2,7 @@
 import HomeAbout from "@/components/sections/HomeSection/HomeAbout";
 import HomeCauses from "@/components/sections/HomeSection/HomeCauses";
 import HomeHero from "@/components/sections/HomeSection/HomeHero";
+import HomeProjects from "@/components/sections/HomeSection/HomeProjects";
 import HomeVolunteer from "@/components/sections/HomeSection/HomeVolunteer";
 import HomeWhatWeDo from "@/components/sections/HomeSection/HomeWhatWeDo";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <HomeCauses />
       <HomeVolunteer />
       <HomeWhatWeDo />
+      <HomeProjects />
     </section>
   );
 }
