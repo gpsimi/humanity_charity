@@ -64,16 +64,23 @@ const HomeTestimonialsCard = () => {
                     {homeTestimonial.map((item) =>(
                         <div key={item.id} className="relative flex space-x-10">
                             <div className="space-x-9">
-                            <div className="bg-gray-2 flex p-5">
-                                <Image
-                                    src={item.image}
-                                    alt={item.name}
-                                    width={150}
-                                    height={60}
-                                    className="h-full"
-                                />
-                                h
-                            </div>
+                                <div className="bg-gray-2 flex items-center p-5 gap-6">
+                                    <Image
+                                        src={item.image}
+                                        alt={item.name}
+                                        width={120}
+                                        height={60}
+                                        className="h-full"
+                                    />
+
+                                    <div>
+                                        <div className="flex flex-col">
+                                            <h2 className="h3">{item.name}</h2>
+                                            <p className="bodyParagraph-dark -mt-2">{item.position}</p>
+                                        </div>
+                                        <p className="bodyParagraph-dark text-justify max-w-sm -mt-2">{item.testimony}</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     ))}

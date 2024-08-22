@@ -76,6 +76,9 @@
 .bodyText-white-1{
   @apply text-white font-serif text-xl md:text-3xl font-bold mb-4 md:mb-6;
 }
+.bodyText-dark-1{
+  @apply text-white font-serif text-xl md:text-3xl font-bold mb-4 md:mb-6;
+}
 
 
 .bodyParagraph-dark{
@@ -84,6 +87,10 @@
 .bodyParagraph-white{
   @apply text-white font-sans text-[16px] mb-5;
 }
+.bodyParagraph-orange{
+  @apply text-orange-1 font-sans text-[16px] mb-5;
+}
+
 
 .h3{
   @apply text-[20px] font-serif font-bold text-dark-1 mb-2;
