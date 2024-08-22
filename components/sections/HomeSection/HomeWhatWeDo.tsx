@@ -15,7 +15,20 @@ const HomeWhatWeDo = () => {
                     </h2>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+                        {WhatWeDo.map((item) => (
+                            <div key={item.id} className='flex flex-col items-center gap-y-1'>
+                                <Image
+                                    src={item.icon}
+                                    width={50}
+                                    height={10}
+                                    alt={item.title}
+                                />
+                                <h3 className='text-center h3'>{item.title}</h3>
+                                <p className='text-center bodyParagraph-dark max-'>{item.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

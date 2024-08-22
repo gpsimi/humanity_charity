@@ -1,3 +1,4 @@
+import HomeTestimonialsCard from '@/components/HomeTestimonialsCard'
 import React from 'react'
 
 const HomeTestimonials = () => {
@@ -14,7 +15,7 @@ const HomeTestimonials = () => {
         </div>
 
         <div className=''>
-          
+          <HomeTestimonialsCard />
         </div>
       </div>
     </section>
