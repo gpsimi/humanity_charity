@@ -1,14 +1,14 @@
 "use client"
 
 import React, { useRef } from "react";
-import Slider from "react-slick";
-import { Button } from "./ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import Slider from 'react-slick';
+import { Button } from './ui/button';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from "next/image";
 import { homeTestimonial } from "@/constants/page";
 
 
-const HomeTestimonialsCard = () => {
+const TestimonialSlider = () => {
 
     let sliderRef = useRef<any>(null);
     const next = () => {
@@ -28,14 +28,6 @@ const HomeTestimonialsCard = () => {
         // autoplay: true,
         responsive: [
             {
-                breakpoint: 10000,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                },
-            },
-            {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
@@ -50,12 +42,11 @@ const HomeTestimonialsCard = () => {
                     slidesToScroll: 1,
                 },
             },
-        ],
+        ]
     };
 
-
     return (
-        <div className="w-full">
+        <div className="">
             <Slider
                 ref={sliderRef}
                 {...settings}
@@ -96,7 +87,8 @@ const HomeTestimonialsCard = () => {
 
 
         </div>
-    )
-}
+    );
+};
 
-export default HomeTestimonialsCard
+
+export default TestimonialSlider;

@@ -1,4 +1,5 @@
 import HomeTestimonialsCard from '@/components/HomeTestimonialsCard'
+import TestimonialSlider from '@/components/TestimonialSlider'
 import React from 'react'
 
 const HomeTestimonials = () => {
