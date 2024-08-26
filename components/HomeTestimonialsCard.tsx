@@ -62,25 +62,27 @@ const HomeTestimonialsCard = () => {
             >
                 {homeTestimonial.map((item) => (
                     <div key={item.id} className="p-4">
-                        <div className="bg-gray-2 p-6 flex items-center">
-                            <Image
-                                src={item.image}
-                                alt={item.name}
-                                width={120}
-                                height={60}
-                                className="mr-6"
-                            />
-                            <div>
-                                <h2 className="h3">{item.name}</h2>
-                                <p className="bodyParagraph-dark -mt-2">{item.position}</p>
-                                <p className="bodyParagraph-dark text-justify max-w-sm -mt-2">{item.testimony}</p>
+                        <div className="bg-gray-2 p-6 flex flex-col items-start">
+                            <div className="max-md:flex max-md:flex-row max-md:gap-4 max-md:place-items-end">
+                                <Image
+                                    src={item.image}
+                                    alt={item.name}
+                                    width={100}
+                                    height={60}
+                                    className="md:mr-6 mb-4"
+                                />
+                                <div>
+                                    <h2 className="h3">{item.name}</h2>
+                                    <p className="bodyParagraph-dark -mt-2">{item.position}</p>
+                                </div>
                             </div>
+                                <p className="bodyParagraph-dark text-justify max-w-sm -mt-2">{item.testimony}</p>
                         </div>
                     </div>
                 ))}
             </Slider>
 
-            <div style={{ textAlign: "center" }} className=" mt-6 md:mt-12 flex gap-8 md:gap-32 justify-center">
+            <div style={{ textAlign: "center" }} className=" mt-5 md:mt-12 flex gap-8 md:gap-32 justify-center">
                 <Button variant="outline" className="bg-white rounded-full" size="icon"
                     onClick={previous}
                 >

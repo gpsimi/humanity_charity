@@ -81,19 +81,19 @@
 }
 
 
-.bodyParagraph-dark{
+.bodyParagraph-dark {
   @apply text-dark-1 font-sans text-[16px] mb-5;
 }
-.bodyParagraph-white{
+.bodyParagraph-white {
   @apply text-white font-sans text-[16px] mb-5;
 }
-.bodyParagraph-orange{
+.bodyParagraph-orange {
   @apply text-orange-1 font-sans text-[16px] mb-5;
 }
 
 
 .h3{
-  @apply text-[20px] font-serif font-bold text-dark-1 mb-2;
+  @apply text-[18px] md:text-[20px] font-serif font-bold text-dark-1 mb-2 ;
 }
 .spanDark{
   @apply text-[14px] font-bold font-serif text-dark-1;

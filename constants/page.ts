@@ -202,7 +202,7 @@ export const homeTestimonial =[
         icon: "/images/testimonial/quote.png",
         name: "Belli Smith",
         position: "Designer",
-        testimony: "Centuries but also the leap into electronic typesetting,established fact that a reader will bdistracted the readable content.",
+        testimony: "Centuries but also the leap into electronic typesetting, established fact that a reader will be distracted the readable content.",
     },
     {
         id: 2,
@@ -210,7 +210,7 @@ export const homeTestimonial =[
         icon: "/images/testimonial/quote.png",
         name: "Sara Taylor",
         position: "Donator",
-        testimony: "Centuries but also the leap into electronic typesetting,established fact that a reader will bdistracted the readable content.",
+        testimony: "Centuries but also the leap into electronic typesetting, established fact that a reader will be distracted the readable content.",
     },
 ]
 
