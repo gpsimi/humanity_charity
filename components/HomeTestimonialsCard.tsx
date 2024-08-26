@@ -62,21 +62,23 @@ const HomeTestimonialsCard = () => {
             >
                 {homeTestimonial.map((item) => (
                     <div key={item.id} className="p-4">
-                        <div className="bg-gray-2 p-6 flex flex-col items-start">
-                            <div className="max-md:flex max-md:flex-row max-md:gap-4 max-md:place-items-end">
+                        <div className="bg-gray-2 p-4 md:p-6 flex flex-col items-center">
+                            <div className="flex flex-row items-center justify-between">
                                 <Image
                                     src={item.image}
                                     alt={item.name}
-                                    width={100}
+                                    width={120}
                                     height={60}
-                                    className="md:mr-6 mb-4"
+                                    className="w-[100px] md:w-[120px] object-contain mr-4 md:mr-6"
                                 />
                                 <div>
                                     <h2 className="h3">{item.name}</h2>
                                     <p className="bodyParagraph-dark -mt-2">{item.position}</p>
+
+                                    <p className="bodyParagraph-dark md:text-justify max-w-sm md:-mt-2 -mt-4">{item.testimony}</p>
                                 </div>
+
                             </div>
-                                <p className="bodyParagraph-dark text-justify max-w-sm -mt-2">{item.testimony}</p>
                         </div>
                     </div>
                 ))}
