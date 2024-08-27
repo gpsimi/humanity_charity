@@ -93,7 +93,7 @@
 
 
 .h3{
-  @apply text-[18px] md:text-[20px] font-serif font-bold text-dark-1 mb-2 ;
+  @apply text-[18px] md:text-[20px] font-serif font-bold text-dark-1 mb-2 leading-5;
 }
 .spanDark{
   @apply text-[14px] font-bold font-serif text-dark-1;

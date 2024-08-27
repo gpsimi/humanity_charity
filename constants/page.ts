@@ -215,6 +215,54 @@ export const homeTestimonial =[
 ]
 
 
+export const clientNumber = [
+    {
+        id: 1,
+        heading: "200k",
+        description: "Received Donations From Our People",
+    },
+    {
+        id: 2,
+        heading: "99k",
+        description: "Projects Done With The Help Of Donators",
+    },
+    {
+        id: 3,
+        heading: "200k",
+        description: "People We Helped on 2020",
+    },
+    {
+        id: 4,
+        heading: "10.7k",
+        description: "With Our Volunteers We've Solved Many Causes",
+    },
+]
+
+
+export const clientsLogo = [
+    {
+        id: 1,
+        logo: "/images/clients/client-1.svg",
+    },
+    {
+        id: 1,
+        logo: "/images/clients/client-2.svg",
+    },
+    {
+        id: 1,
+        logo: "/images/clients/client-3.svg",
+    },
+    {
+        id: 1,
+        logo: "/images/clients/client-4.svg",
+    },
+    {
+        id: 1,
+        logo: "/images/clients/client-5.svg",
+    },
+]
+
+
 
 
 

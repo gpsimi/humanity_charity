@@ -8,7 +8,7 @@ import Image from "next/image";
 import { homeTestimonial } from "@/constants/page";
 
 
-const HomeTestimonialsCard = () => {
+const  HomeTestimonialsCard = () => {
 
     let sliderRef = useRef<any>(null);
     const next = () => {
@@ -84,18 +84,21 @@ const HomeTestimonialsCard = () => {
                 ))}
             </Slider>
 
-            <div style={{ textAlign: "center" }} className=" mt-5 md:mt-12 flex gap-8 md:gap-32 justify-center">
+            <div style={{ textAlign: "center" }} className=" mt-5 md:mt-12 flex justify-center items-center ">
+                
                 <Button variant="outline" className="bg-white rounded-full" size="icon"
                     onClick={previous}
                 >
                     <ChevronLeft className="h-5 w-8 text-dark-1" />
                 </Button>
-                <hr className="border-black mb-5" />
+                <div className="flex-1 h-px bg-gray-300 max-w-32 md:max-w-96" />
                 <Button variant="outline" className="bg-white rounded-full" size="icon"
                     onClick={next}
                 >
                     <ChevronRight className="h-5 w-8 text-dark-1" />
-                </Button>
+                </Button>    
+                
+                
             </div>
 
 
