@@ -15,9 +15,9 @@ const HomeWhatWeDo = () => {
                     </h2>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10'>
                         {WhatWeDo.map((item) => (
-                            <div key={item.id} className='flex flex-col items-center gap-y-1'>
+                            <div key={item.id} className='flex flex-col items-center space-y-3'>
                                 <Image
                                     src={item.icon}
                                     width={50}

@@ -1,6 +1,6 @@
-import HomeTestimonialsCard from '@/components/HomeTestimonialsCard'
-import TestimonialSlider from '@/components/TestimonialSlider'
 import React from 'react'
+import HomeTestimonialsCard from '@/components/HomeTestimonialsCard'
+import HomeSponsors from './HomeSponsors'
 
 const HomeTestimonials = () => {
   return (
@@ -18,6 +18,8 @@ const HomeTestimonials = () => {
         <div className=''>
           <HomeTestimonialsCard />
         </div>
+
+        
       </div>
     </section>
   )

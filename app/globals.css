@@ -1,3 +1,9 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+
 /* React Slcik CSS */
 @import "slick-carousel/slick/slick.css"; 
 @import "slick-carousel/slick/slick-theme.css";

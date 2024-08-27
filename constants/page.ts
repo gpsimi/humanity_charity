@@ -229,7 +229,7 @@ export const clientNumber = [
     {
         id: 3,
         heading: "200k",
-        description: "People We Helped on 2020",
+        description: "People We Helped from 2020 till now",
     },
     {
         id: 4,
