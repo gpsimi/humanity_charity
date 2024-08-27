@@ -15,8 +15,8 @@ const HomeSponsors = () => {
           ))}
         </div>
         <div className="flex-1 h-[2px] bg-border-1/50 " />
-        <div className='w-full'>
-            <Brands />
+        <div className=''>
+          <Brands />
         </div>
       </div>
     </section>

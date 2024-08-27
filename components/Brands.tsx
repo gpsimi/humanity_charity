@@ -1,5 +1,7 @@
 "use client"
 
+import { clientsLogo } from "@/constants/page";
+import Image from "next/image";
 import React from "react";
 import Slider from "react-slick";
 
@@ -27,37 +29,34 @@ const Brands = () => {
                 settings: {
                     slidesToShow: 5,
                     slidesToScroll: 1,
-                    initialSlide: 2,
+                    infinite: true,
                 },
             },
             {
                 breakpoint: 640,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
+                    infinite: true,
                 },
             },
         ],
     };
-    
-return (
-        <div className="slider-container">
-            <Slider {...settings} className="space-x-7">
-                <div className="bg-green-600 p-6">
-                    <h3>1</h3>
-                </div>
-                <div className="bg-green-600 p-6">
-                    <h3>2</h3>
-                </div>
-                <div className="bg-green-600 p-6">
-                    <h3>3</h3>
-                </div>
-                <div className="bg-green-600 p-6">
-                    <h3>4</h3>
-                </div>
-                <div className="bg-green-600 p-6">
-                    <h3>5</h3>
-                </div>
+
+    return (
+        <div className="">
+            <Slider {...settings}>
+                {clientsLogo.map((items) => (
+                        <div key={items.id} className="flex items-center">
+                            <Image
+                                src={items.logo}
+                                width={100}
+                                height={20}
+                                alt="client-images"
+                                className=""
+                            />
+                        </div>
+                    ))}
             </Slider>
         </div>
     );

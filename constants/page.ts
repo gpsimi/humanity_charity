@@ -245,19 +245,19 @@ export const clientsLogo = [
         logo: "/images/clients/client-1.svg",
     },
     {
-        id: 1,
+        id: 2,
         logo: "/images/clients/client-2.svg",
     },
     {
-        id: 1,
+        id: 3,
         logo: "/images/clients/client-3.svg",
     },
     {
-        id: 1,
+        id: 4,
         logo: "/images/clients/client-4.svg",
     },
     {
-        id: 1,
+        id: 5,
         logo: "/images/clients/client-5.svg",
     },
 ]
