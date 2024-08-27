@@ -45,6 +45,9 @@ const config = {
           3: '#F2F2F2',
           4: '#C5CECC',
         },
+        border: {
+          1: '#D0D0D0',
+        },
       },
       // borderRadius: {
       //   lg: "var(--radius)",
