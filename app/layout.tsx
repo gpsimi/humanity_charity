@@ -8,7 +8,7 @@ import TopNav from "@/components/TopNav";
 
 const shipporiMincho = Shippori_Mincho({
   subsets: ['latin'],
-  weight: ['400',  '600', '800'],
+  weight: ['400', '600', '800'],
   display: 'swap',
   variable: '--font-shippori-mincho'
 });
@@ -42,7 +42,7 @@ export default function RootLayout({
     <html lang="en" className={`${shipporiMincho.variable} ${workSans.variable} ${sueEllen.variable}`}>
       <body>
         <TopNav />
-        <Navbar/>
+        <Navbar />
         {children}
         <Footer />
       </body>
