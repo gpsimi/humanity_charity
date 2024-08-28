@@ -1,11 +1,11 @@
-import Brands from '@/components/Brands'
-import { clientNumber } from '@/constants/page'
-import React from 'react'
+import React from 'react';
+import Brands from '@/components/Brands';
+import { clientNumber } from '@/constants/page';
 
 const HomeSponsors = () => {
   return (
     <section className='md:py-4 py-6'>
-      <div className='container mx-auto max-w-[1280px] space-y-10 pb-10'>
+      <div className='container mx-auto max-w-[1280px] space-y-10 pb-14'>
         <div className="grid lg:grid-col-4 md:grid-cols-4 grid-cols-1 gap-8">
           {clientNumber.map((items) => (
             <div key={items.id} className="flex flex-col items-center  justify-center space-y-4">
