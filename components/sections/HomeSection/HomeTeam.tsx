@@ -54,19 +54,20 @@ const HomeTeam = () => {
                             </div>
                         ))}
 
-                        <div className='flex flex-col items-center justify-center bg-green-1 py-8 px-3'>
+                        <div className='flex flex-col items-center justify-center bg-green-1 py-8 px-8'>
                             <Image
-                                src="/image"
-                                width={30}
+                                src="/images/volunteer/Icon.svg"
+                                width={90}
                                 height={30}
-                                alt=''
+                                alt='volunteer-icon'
+                                className='mb-9'
                             />
-                            <div>
+                            <div className='text-center'>
                                 <h2 className='h3'>Become a Volunteer</h2>
                                 <p className='bodyParagraph-dark'>
                                     Centuries but also the leap  electtypesetting, remaining 
                                 </p>
-                                <Button className='button-dark px-8' asChild>
+                                <Button className='button-dark px-8 w-full' asChild>
                                     <Link href="/">Join Us today</Link>
                                 </Button>
                             </div>
