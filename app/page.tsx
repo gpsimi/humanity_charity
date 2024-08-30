@@ -8,6 +8,7 @@ import HomeVolunteer from "@/components/sections/HomeSection/HomeVolunteer";
 import HomeWhatWeDo from "@/components/sections/HomeSection/HomeWhatWeDo";
 import HomeSponsors from "@/components/sections/HomeSection/HomeSponsors";
 import HomeTeam from "@/components/sections/HomeSection/HomeTeam";
+import HomeEvents from "@/components/sections/HomeSection/HomeEvents";
 
 
            
@@ -25,6 +26,7 @@ export default function Home() {
       <HomeTestimonials />
       <HomeSponsors />
       <HomeTeam />
+      <HomeEvents />
     </section>
   );
 }
