@@ -65,7 +65,7 @@ const HomeTeam = () => {
                             <div className='text-center'>
                                 <h2 className='h3'>Become a Volunteer</h2>
                                 <p className='bodyParagraph-dark'>
-                                    Centuries but also the leap  electtypesetting, remaining 
+                                    Centuries but also the leap  electtypesetting, remaining
                                 </p>
                                 <Button className='button-dark px-8 w-full' asChild>
                                     <Link href="/">Join Us today</Link>
