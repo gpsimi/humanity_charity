@@ -262,6 +262,87 @@ export const clientsLogo = [
     },
 ]
 
+export const HomeVolunteers = [
+    {
+        image: "/images/volunteer/volunteer-1.png",
+        name: "Martin Luther",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/volunteer/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/volunteer/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/volunteer/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/volunteer/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/volunteer/volunteer-2.png",
+        name: "Keira Knightley",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/volunteer/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/volunteer/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/volunteer/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/volunteer/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/volunteer/volunteer-3.png",
+        name: "Jack Sparrow",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/volunteer/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/volunteer/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/volunteer/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/volunteer/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+]
+
 
 
 
