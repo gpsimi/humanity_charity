@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button';
 import { HomeVolunteers } from '@/constants/page';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -53,8 +54,22 @@ const HomeTeam = () => {
                             </div>
                         ))}
 
-                        <div className='flex items-center justify-center bg-green-1 py-8 px-3'>
-                            4
+                        <div className='flex flex-col items-center justify-center bg-green-1 py-8 px-3'>
+                            <Image
+                                src="/image"
+                                width={30}
+                                height={30}
+                                alt=''
+                            />
+                            <div>
+                                <h2 className='h3'>Become a Volunteer</h2>
+                                <p className='bodyParagraph-dark'>
+                                    Centuries but also the leap  electtypesetting, remaining 
+                                </p>
+                                <Button className='button-dark px-8' asChild>
+                                    <Link href="/">Join Us today</Link>
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 </div>
