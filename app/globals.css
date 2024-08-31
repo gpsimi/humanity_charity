@@ -72,6 +72,9 @@
 .bodySubtext-white{
   @apply text-white font-mono text-[25px] md:text-[30px];
 }
+.bodySubtext-dark{
+  @apply text-dark-1 font-mono text-[25px] md:text-[30px];
+}
 
 .bodyText-dark{
   @apply text-dark-1 font-serif text-2xl md:text-4xl font-bold mb-2 md:mb-6;
@@ -99,6 +102,9 @@
 
 
 .h3{
+  @apply text-[18px] md:text-[20px] font-serif font-bold text-dark-1 mb-2 leading-5;
+}
+.h3-white{
   @apply text-[18px] md:text-[20px] font-serif font-bold text-dark-1 mb-2 leading-5;
 }
 .spanDark{
