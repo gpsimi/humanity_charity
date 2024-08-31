@@ -3,10 +3,10 @@ import Link from 'next/link'
 import React from 'react'
 
 const HomeEvents = () => {
-  return (
-    <section className="py-12 md:py-24">
-        <div className="container mx-auto max-w-[1280px]">
-        <div className='w-full flex flex-row justify-between items-start gap-x-16'>
+    return (
+        <section className="py-12 md:py-24">
+            <div className="container mx-auto max-w-[1280px]">
+                <div className='w-full flex flex-row justify-between items-start gap-x-16'>
                     <div className='w-full md:w-1/2'>
                         <h5 className="bodySubtext-orange">
                             Our Events
@@ -21,9 +21,11 @@ const HomeEvents = () => {
                         </Button>
                     </div>
                 </div>
-        </div>
-    </section>
-  )
+
+                
+            </div>
+        </section>
+    )
 }
 
 export default HomeEvents
