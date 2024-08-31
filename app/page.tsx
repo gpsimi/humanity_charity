@@ -11,6 +11,7 @@ import HomeTeam from "@/components/sections/HomeSection/HomeTeam";
 import HomeEvents from "@/components/sections/HomeSection/HomeEvents";
 
 
+
            
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <HomeSponsors />
       <HomeTeam />
       <HomeEvents />
+      
     </section>
   );
 }
