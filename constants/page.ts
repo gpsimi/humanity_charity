@@ -159,37 +159,37 @@ export const homeCauses = [
 export const WhatWeDo = [
     {
        id: 1,
-       icon:  "/images//what-we-do/01.svg",
+       icon:  "/images/home/what-we-do/01.svg",
        title: "Medicine Help",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 2,
-       icon:  "/images//what-we-do/02.svg",
+       icon:  "/images/home/what-we-do/02.svg",
        title: "Water Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 3,
-       icon:  "/images//what-we-do/03.svg",
+       icon:  "/images/home/what-we-do/03.svg",
        title: "We Care About",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 4,
-       icon:  "/images//what-we-do/04.svg",
+       icon:  "/images/home/what-we-do/04.svg",
        title: "Food Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 5,
-       icon:  "/images//what-we-do/05.svg",
+       icon:  "/images/home/what-we-do/05.svg",
        title: "Spread The World",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 6,
-       icon:  "/images//what-we-do/06.svg",
+       icon:  "/images/home/what-we-do/06.svg",
        title: "Learn Education",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
@@ -262,81 +262,81 @@ export const clientsLogo = [
     },
 ]
 
-export const HomeVolunteers = [
+export const HomeTeamData = [
     {
-        image: "/images/volunteer/volunteer-1.png",
+        image: "/images/home/home-team/volunteer-1.png",
         name: "Martin Luther",
         socials: [
             {
                 label: 'instagram',
-                icon: "/images/volunteer/volunteer-IG.png",
+                icon: "/images/home/home-team/volunteer-IG.png",
                 link: 'https://www.instagram.com/',
             },
             {
                 label: 'facebook',
-                icon: "/images/volunteer/volunteer-Fb.png",
+                icon: "/images/home/home-team/volunteer-Fb.png",
                 link: 'https://www.facebook.com/',
             },
             {
                 label: 'twitter',
-                icon: "/images/volunteer/volunteer-Twiter.png",
+                icon: "/images/home/home-team/volunteer-Twiter.png",
                 link: 'https://www.x.com/',
             },
             {
                 label: 'pintrest',
-                icon: "/images/volunteer/volunteer-Pintrest.png",
+                icon: "/images/home/home-team/volunteer-Pintrest.png",
                 link: 'https://www.pintrest.com/',
             },
         ]
     },
     {
-        image: "/images/volunteer/volunteer-2.png",
+        image: "/images/home/home-team/volunteer-2.png",
         name: "Keira Knightley",
         socials: [
             {
                 label: 'instagram',
-                icon: "/images/volunteer/volunteer-IG.png",
+                icon: "/images/home/home-team/volunteer-IG.png",
                 link: 'https://www.instagram.com/',
             },
             {
                 label: 'facebook',
-                icon: "/images/volunteer/volunteer-Fb.png",
+                icon: "/images/home/home-team/volunteer-Fb.png",
                 link: 'https://www.facebook.com/',
             },
             {
                 label: 'twitter',
-                icon: "/images/volunteer/volunteer-Twiter.png",
+                icon: "/images/home/home-team/volunteer-Twiter.png",
                 link: 'https://www.x.com/',
             },
             {
                 label: 'pintrest',
-                icon: "/images/volunteer/volunteer-Pintrest.png",
+                icon: "/images/home/home-team/volunteer-Pintrest.png",
                 link: 'https://www.pintrest.com/',
             },
         ]
     },
     {
-        image: "/images/volunteer/volunteer-3.png",
+        image: "/images/home/home-team/volunteer-3.png",
         name: "Jack Sparrow",
         socials: [
             {
                 label: 'instagram',
-                icon: "/images/volunteer/volunteer-IG.png",
+                icon: "/images/home/home-team/volunteer-IG.png",
                 link: 'https://www.instagram.com/',
             },
             {
                 label: 'facebook',
-                icon: "/images/volunteer/volunteer-Fb.png",
+                icon: "/images/home/home-team/volunteer-Fb.png",
                 link: 'https://www.facebook.com/',
             },
             {
                 label: 'twitter',
-                icon: "/images/volunteer/volunteer-Twiter.png",
+                icon: "/images/home/home-team/volunteer-Twiter.png",
                 link: 'https://www.x.com/',
             },
             {
                 label: 'pintrest',
-                icon: "/images/volunteer/volunteer-Pintrest.png",
+                icon: "/images/home/home-team/volunteer-Pintrest.png",
                 link: 'https://www.pintrest.com/',
             },
         ]

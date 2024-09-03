@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
-import { HomeVolunteers } from '@/constants/page';
+import { HomeTeamData } from '@/constants/page';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
@@ -19,7 +20,7 @@ const HomeTeam = () => {
 
                 <div className=''>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 md:gap-5">
-                        {HomeVolunteers.map((item) => (
+                        {HomeTeamData.map((item) => (
                             <div key={item.name} className="flex flex-col">
                                 <Image
                                     src={item.image}
@@ -56,7 +57,7 @@ const HomeTeam = () => {
 
                         <div className='flex flex-col items-center justify-center bg-green-1 py-8 px-8'>
                             <Image
-                                src="/images/volunteer/Icon.svg"
+                                src="/images/home/home-team/Icon.svg"
                                 width={90}
                                 height={30}
                                 alt='volunteer-icon'
