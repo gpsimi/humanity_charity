@@ -159,37 +159,37 @@ export const homeCauses = [
 export const WhatWeDo = [
     {
        id: 1,
-       icon:  "/images/what-we-do/01.svg",
+       icon:  "/images/home/what-we-do/01.svg",
        title: "Medicine Help",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 2,
-       icon:  "/images/what-we-do/02.svg",
+       icon:  "/images/home/what-we-do/02.svg",
        title: "Water Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 3,
-       icon:  "/images/what-we-do/03.svg",
+       icon:  "/images/home/what-we-do/03.svg",
        title: "We Care About",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 4,
-       icon:  "/images/what-we-do/04.svg",
+       icon:  "/images/home/what-we-do/04.svg",
        title: "Food Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 5,
-       icon:  "/images/what-we-do/05.svg",
+       icon:  "/images/home/what-we-do/05.svg",
        title: "Spread The World",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 6,
-       icon:  "/images/what-we-do/06.svg",
+       icon:  "/images/home/what-we-do/06.svg",
        title: "Learn Education",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
