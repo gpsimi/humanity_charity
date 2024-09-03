@@ -91,6 +91,19 @@ export const navLinks : NavItem[] = [
 ]
 
 
+/* Home Page */
+interface HomeHeroItem {
+    text: string;
+    subText: string;
+}
+export const HomeHero : HomeHeroItem[] = [
+    {
+        subText: "Need Help...",
+        text: "Being Life Saver For Someone"
+    }
+]
+
+
 export const homeAbout = [
     {
         label: 'Food Donation',
@@ -345,12 +358,103 @@ export const HomeTeamData = [
 
 
 
+/* About Page */
+
+export const HERO_SECTIONS = {
+    HomePage: {
+      subtext: 'Need Help...',
+      text: 'Being Life Saver For Someone',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark-',
+      additionalClasses: 'h-screen md:h-[90vh]',
+    },
+    AboutPage: {
+      subtext: 'What We do',
+      text: 'About our Organization',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    CausesPage: {
+      subtext: 'Donation',
+      text: 'Our Causes',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    EventPage: {
+      subtext: 'Donation',
+      text: 'Our Causes',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    TeamPage: {
+      subtext: 'Humanity People',
+      text: 'Team Member',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    VolunteerPage: {
+      subtext: 'Need Your Heartful Help...',
+      text: 'Become a Volunteer',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    ProjectPage: {
+      subtext: 'Projects',
+      text: 'Meet Charity Projects',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    BlogPage: {
+      subtext: 'Projects',
+      text: 'Meet Charity Projects',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    ContactPage: {
+      subtext: 'Contact',
+      text: 'Get in Touch',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    FaqPage: {
+      subtext: 'Faq',
+      text: 'General Questions',
+      backgroundImage: 'bg-hero',
+      gradientFromColor: 'from-black',
+      gradientToColor: 'to-dark',
+      additionalClasses: 'h-screen md:h-[60vh]',
+    },
+    
+  };
+    
 
 
 
 
 
-export const footersocials =[
+
+
+
+/* Footer */
+
+export const footersocials = [
     {
         label: 'Instagram',
         route: 'https://www.instagram.com/',
