@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroImage from '../../HeroImage'
+import HomeHeroImage from '../../HomeHeroImage'
 import HeroCard from '../../HeroCard'
 
 const HomeHero = () => {
   return (
     <section>
-        <HeroImage />
+        <HomeHeroImage />
         <HeroCard />
     </section>
   )

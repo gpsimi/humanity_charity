@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-const HeroImage = () => {
+const HomeHeroImage = () => {
   return (
     <section className="flex h-screen md:h-[90vh] w-full bg-hero bg-cover relative">
       <div className="absolute inset-0 bg-gradient-to-r from-black to-dark- opacity-80" />
@@ -37,4 +37,4 @@ const HeroImage = () => {
   );
 };
 
-export default HeroImage;
+export default HomeHeroImage;
