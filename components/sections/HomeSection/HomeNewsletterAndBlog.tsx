@@ -7,7 +7,7 @@ const HomeNewsletterAndBlog = () => {
         <div className="flex flex-col md:flex-row w-full mx-auto">
             {/* Subscribe Newsletter Section */}
 
-            <div className="flex flex-col items-start justify-center bg-orange-1 p-12 w-full md:w-1/2 text-white">
+            <div className="flex flex-col items-start justify-center bg-orange-1 py-6 md:p-12 w-full md:w-1/2 text-white">
                 <div className='container max-w-[600px]'>
                     <h5 className="bodySubtext-white">
                         Subscribe
@@ -21,14 +21,14 @@ const HomeNewsletterAndBlog = () => {
                     </p>
                     <div className="">
 
-                        <div className='flex space-x-3'>
+                        <div className='flex space-x-3 items-center'>
                             <input
                                 // {...register('email')}
                                 placeholder="Enter Your Email Address"
                                 className="inputStyle-1 rounded-full"
                             />
                             {/* {errors.email && <span className="inputSpan">{errors.email.message}</span>} */}
-                            <Button type="submit" className="mt-4 button-dark ">
+                            <Button type="submit" className="button-dark ">
                                 Send
                             </Button>
                         </div>
@@ -38,7 +38,7 @@ const HomeNewsletterAndBlog = () => {
             </div>
 
             {/* Recent Blog Section */}
-            <div className="flex flex-col justify-center  bg-green-1 p-16 w-full md:w-1/2 text-white">
+            <div className="flex flex-col justify-center  bg-green-1 p-6 md:p-16 w-full md:w-1/2 text-white">
                 <div className=' max-w-[600px]'>
                     <h5 className="bodySubtext-dark">
                         Recent Blog
