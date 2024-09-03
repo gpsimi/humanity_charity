@@ -38,7 +38,7 @@ const HomeNewsletterAndBlog = () => {
             </div>
 
             {/* Recent Blog Section */}
-            <div className="flex flex-col justify-center bg-green-1 w-full md:w-1/2 text-white">
+            <div className="flex flex-col justify-center bg-homeFooter w-full md:w-1/2 text-white">
                 <div className='container max-w-[600px]'>
                     <h5 className="bodySubtext-dark">
                         Recent Blog
