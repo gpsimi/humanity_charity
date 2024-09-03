@@ -23,7 +23,7 @@ const HomeVolunteer = () => {
             </p>
 
             <Image
-              src="/images/home/volunteer.png"
+              src="/images/home/home-volunteer/volunteer.png"
               width={450}
               height={200}
               alt=''

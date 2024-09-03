@@ -69,8 +69,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        hero: "url('/images/home/hero-background.png')",
-        "herocardImage": "url('/images/home/hero-card.png')",
+        hero: "url('/images/home/hero/hero-background.png')",
+        "herocardImage": "url('/images/home/hero/hero-card.png')",
         "homeVolunteers": "url('/images/home/home-volunteer.png')",
         "homeBlog": "url('/images/home/home-blog.png')",
       },

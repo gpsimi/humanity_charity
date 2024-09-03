@@ -32,16 +32,16 @@ const HeroCard = () => {
               </Link>
             </div>
 
-            <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat w-full h-[250px]">
+            <div className="bg-herocardImage relative bg-cover bg-center bg-no-repeat w-full h-[250px] md:h-full">
               <div className="absolute inset-0 bg-orange-1 opacity-50" />
               <div className="relative z-10 flex justify-center items-center h-full">
-                <Link href="/" className="bg-white p-5 rounded-full z-50">
+                <Link href="/" className=" p-5 rounded-full z-50 ">
                   <Image
-                    src="/icons/play-button.svg"
+                    src="/images/home/hero/play-button.svg"
                     alt="play-button"
                     width={10}
                     height={10}
-                    className="w-3"
+                    className="w-full"
                   />
                 </Link>
               </div>
