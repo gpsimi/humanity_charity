@@ -375,7 +375,8 @@ export const HERO_SECTIONS = {
       backgroundImage: 'bg-hero',
       gradientFromColor: 'from-black',
       gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
+      additionalClasses: '',
+    //   className : 'md:h-[50vh]',
     },
     CausesPage: {
       subtext: 'Donation',

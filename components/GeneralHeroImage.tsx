@@ -21,7 +21,7 @@ const GeneralHeroImage: React.FC<GeneralHeroImageProps> = ({
 }) => {
     return (
         <section
-            className={`flex w-full bg-cover relative ${backgroundImage} ${additionalClasses}`}
+            className={`flex h-screen md:h-[60vh] w-full bg-cover relative ${backgroundImage} ${additionalClasses}`}
         >
             <div
                 className={`absolute inset-0 bg-gradient-to-r ${gradientFromColor} ${gradientToColor} opacity-80`}
