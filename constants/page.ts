@@ -159,37 +159,37 @@ export const homeCauses = [
 export const WhatWeDo = [
     {
        id: 1,
-       icon:  "/images/home/what-we-do/01.svg",
+       icon:  "/images//what-we-do/01.svg",
        title: "Medicine Help",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 2,
-       icon:  "/images/home/what-we-do/02.svg",
+       icon:  "/images//what-we-do/02.svg",
        title: "Water Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 3,
-       icon:  "/images/home/what-we-do/03.svg",
+       icon:  "/images//what-we-do/03.svg",
        title: "We Care About",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 4,
-       icon:  "/images/home/what-we-do/04.svg",
+       icon:  "/images//what-we-do/04.svg",
        title: "Food Delivery",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 5,
-       icon:  "/images/home/what-we-do/05.svg",
+       icon:  "/images//what-we-do/05.svg",
        title: "Spread The World",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
        id: 6,
-       icon:  "/images/home/what-we-do/06.svg",
+       icon:  "/images//what-we-do/06.svg",
        title: "Learn Education",
        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
@@ -198,7 +198,7 @@ export const WhatWeDo = [
 export const homeTestimonial =[
     {
         id: 1,
-        image: "/images/testimonial/image-1.png",
+        image: "/images/home/testimonial/image-1.png",
         icon: "/images/testimonial/quote.png",
         name: "Belli Smith",
         position: "Designer",
@@ -206,7 +206,7 @@ export const homeTestimonial =[
     },
     {
         id: 2,
-        image: "/images/testimonial/image-2.png",
+        image: "/images/home/testimonial/image-2.png",
         icon: "/images/testimonial/quote.png",
         name: "Sara Taylor",
         position: "Donator",
@@ -242,23 +242,23 @@ export const clientNumber = [
 export const clientsLogo = [
     {
         id: 1,
-        logo: "/images/clients/client-1.svg",
+        logo: "/images/home/clients/client-1.svg",
     },
     {
         id: 2,
-        logo: "/images/clients/client-2.svg",
+        logo: "/images/home/clients/client-2.svg",
     },
     {
         id: 3,
-        logo: "/images/clients/client-3.svg",
+        logo: "/images/home/clients/client-3.svg",
     },
     {
         id: 4,
-        logo: "/images/clients/client-4.svg",
+        logo: "/images/home/clients/client-4.svg",
     },
     {
         id: 5,
-        logo: "/images/clients/client-5.svg",
+        logo: "/images/home/clients/client-5.svg",
     },
 ]
 
