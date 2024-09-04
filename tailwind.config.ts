@@ -78,7 +78,7 @@ const config = {
         
       },
       backgroundImages: {
-        about: "url('/images/home/hero/hero-background.png')"
+        about: "url('/images/about/hero.png')",
       }
     },
   },
