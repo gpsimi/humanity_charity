@@ -10,8 +10,8 @@ interface HomeHeroItem {
 
 const HomeHeroImage = () => {
   return (
-    <section className="flex h-screen md:h-[90vh] w-full bg-hero bg-cover relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-black to-dark- opacity-80" />
+    <section className="flex h-screen md:h-[90vh] w-full bg-hero bg-cover bg-center relative">
+      <div className="absolute inset-0 bg-gradient-to-r from-black max-md:to-black opacity-80" />
       <div className="container mx-auto md:max-w-[1280px] flex flex-col h-full justify-center items-start z-30">
         {HomeHero.map((item: HomeHeroItem, index: number) => (
           <div key={index}>

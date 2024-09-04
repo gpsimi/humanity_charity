@@ -374,7 +374,7 @@ export const HERO_SECTIONS = {
       text: 'About our Organization',
       backgroundImage: 'bg-about',
       gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
+      gradientToColor: '',
       additionalClasses: '',
       
     },

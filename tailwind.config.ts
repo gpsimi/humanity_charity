@@ -70,10 +70,10 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/home/hero/hero-background.png')",
-        "about": "url('/images/home/hero/hero-background.png')",
         "herocardImage": "url('/images/home/hero/hero-card.png')",
         "homeVolunteers": "url('/images/home/home-volunteer.png')",
         "homeBlog": "url('/images/home/home-blog.png')",
+        "about": "url('/images/about/hero.png')",
         
       },
       backgroundImages: {
