@@ -15,7 +15,7 @@ const HomeSponsors = () => {
           ))}
         </div>
         <div className="flex-1 h-[2px] bg-border-1/50 " />
-        <div className=''>
+        <div className='max-md:px-6'>
           <Brands />
         </div>
       </div>
