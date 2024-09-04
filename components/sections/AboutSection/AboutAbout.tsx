@@ -10,9 +10,9 @@ const AboutAbout = () => {
                 <div className='w-full md:w-1/2 '>
                     <Image
                         src="/images/about/about.png"
-                        alt="About Image"
                         width={600}
                         height={100}
+                        alt="About Image"
                         className="w-full"
                     />
                     <div className='absolute -bottom-16 -left-8 bg-dark-1 px-8 py-8 hidden md:flex space-x-4'>
