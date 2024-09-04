@@ -23,7 +23,7 @@ const AboutAbout = () => {
                             height={50}
                             className=""
                         />
-                        <p className='text-white font-bold text-sm md:text-lg font-serif'>
+                        <p className='text-white font-semibold text-sm md:text-lg font-serif'>
                             He is truly great who <br />
                             hath a great charity.
                         </p>

@@ -74,12 +74,12 @@ const config = {
         "herocardImage": "url('/images/home/hero/hero-card.png')",
         "homeVolunteers": "url('/images/home/home-volunteer.png')",
         "homeBlog": "url('/images/home/home-blog.png')",
-        "about": "url('/images/about/hero.png')",
+        // "about": "url('/images/about/hero.png')",
         
       },
-      backgroundImages: {
-        about: "url('/images/about/hero.png')",
-      }
+      // backgroundImages: {
+      //   about: "url('/images/about/hero.png')",
+      // }
     },
   },
   plugins: [require("tailwindcss-animate")],
