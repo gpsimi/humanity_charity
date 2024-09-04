@@ -6,7 +6,7 @@ import React from 'react'
 const AboutAbout = () => {
     return (
         <section className='py-12 md:py-24'>
-            <div className="container mx-auto max-w-[1280px] relative flex md:flex-row flex-col gap-8">
+            <div className="container mx-auto max-w-[1280px] relative flex md:flex-row flex-col gap-8 md:gap-16 items-center">
                 <div className='w-full md:w-1/2 '>
                     <Image
                         src="/images/about/about.png"
@@ -23,7 +23,10 @@ const AboutAbout = () => {
                             height={50}
                             className=""
                         />
-                        <p className='text-white font-bold text-sm md:text-lg font-serif'>He is truly great who <br /> hath a great charity.</p>
+                        <p className='text-white font-bold text-sm md:text-lg font-serif'>
+                            He is truly great who <br />
+                            hath a great charity.
+                        </p>
                     </div>
                 </div>
                 <div className='w-full md:w-1/2 gap-x-16'>
@@ -31,20 +34,21 @@ const AboutAbout = () => {
                         About Us
                     </h5>
                     <h2 className="bodyText-dark">
-                        Help People, <br />
-                        Our Main Goals
+                        Solutions to Help People <br />
+                        in Need and Save <br />
+                        the Planet
                     </h2>
                     <p className="bodyParagraph-dark">
-                        Lorem Ipsum is simply dummy text of the printin 
-                        typesetting  dummy text ever  when an unknown printer 
-                        took a galley of type and scrambled it to make a type 
-                        specimen book. 
+                        Lorem Ipsum is simply dummy text of the printin
+                        typesetting  dummy text ever  when an unknown printer
+                        took a galley of type and scrambled it to make a type
+                        specimen book.
                     </p>
-                    <p className="bodyParagraph-dark">
-                    Save the Children believes every child deserves a future.
+                    <p className="bodyParagraph-dark bg-gray-5 px-4 py-3">
+                        Save the Children believes every child deserves a future.
                     </p>
-                    <Button className="button-orange max-md:w-full" asChild>
-                        <Link href="/about-us">More About</Link>
+                    <Button className="button-dark max-md:w-full" asChild>
+                        <Link href="/about-us" className=''>More About</Link>
                     </Button>
                 </div>
             </div>

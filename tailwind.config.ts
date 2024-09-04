@@ -44,6 +44,7 @@ const config = {
           2: '#ECF1F0',
           3: '#F2F2F2',
           4: '#C5CECC',
+          5: '#DEF1F0',
         },
         border: {
           1: '#D0D0D0',

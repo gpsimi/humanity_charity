@@ -28,7 +28,7 @@ const HomeNewsletterAndBlog = () => {
                                 className="inputStyle-1 rounded-full"
                             />
                             {/* {errors.email && <span className="inputSpan">{errors.email.message}</span>} */}
-                            <Button type="submit" className="button-dark ">
+                            <Button type="submit" className="button-dark">
                                 Send
                             </Button>
                         </div>
@@ -47,7 +47,7 @@ const HomeNewsletterAndBlog = () => {
                     <h3 className="bodyText-dark max-w-[500px]">
                         Take Look At Recent Blog Posts
                     </h3>
-                    <Button className="button-dark max-md:w-full -mt-6" asChild>
+                    <Button className="button-dark mt-3" asChild>
                         <Link href="/blog">See our Blogs</Link>
                     </Button>
                 </div>
