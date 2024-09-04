@@ -372,11 +372,11 @@ export const HERO_SECTIONS = {
     AboutPage: {
       subtext: 'What We do',
       text: 'About our Organization',
-      backgroundImage: 'bg-hero',
+      backgroundImage: 'bg-about',
       gradientFromColor: 'from-black',
       gradientToColor: 'to-dark',
       additionalClasses: '',
-    //   className : 'md:h-[50vh]',
+      
     },
     CausesPage: {
       subtext: 'Donation',
