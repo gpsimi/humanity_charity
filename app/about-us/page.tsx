@@ -4,6 +4,7 @@ import AboutAbout from '@/components/sections/AboutSection/AboutAbout'
 import AboutBrands from '@/components/sections/AboutSection/AboutBrands'
 import GoalAndMission from '@/components/sections/AboutSection/GoalAndMission'
 import HomeTeam from '@/components/sections/HomeSection/HomeTeam'
+import AboutNewsletter from '@/components/sections/AboutSection/AboutNewsletter'
 
 const AboutUs = () => {
   return (
@@ -13,7 +14,7 @@ const AboutUs = () => {
       <AboutBrands />
       <GoalAndMission />
       <HomeTeam />
-
+      <AboutNewsletter />
     </section>
   )
 }
