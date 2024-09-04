@@ -1,3 +1,4 @@
+import { goalAndMission } from '@/constants/page'
 import Image from 'next/image'
 import React from 'react'
 
@@ -5,7 +6,7 @@ const GoalAndMission = () => {
     return (
         <section className="py-8 md:py-24">
             <div className="container mx-auto max-w-[1280px] flex flex-col-reverse md:flex-row gap-8 md:gap-16">
-                <div className="w-full md:w-1/2 max-md:mt-20">
+                <div className="w-full md:w-1/2  max-md:mt-20">
 
                     <h2 className="bodyText-dark">
                         Our Goals
@@ -16,8 +17,19 @@ const GoalAndMission = () => {
                         printer took a galley of type and scrambled type
                         specimen book.
                     </p>
-                    <div className=''>
-
+                    <div className='flex flex-wrap gap-y-4 gap-x-5 my-7'>
+                        {goalAndMission.map((item) => (
+                            <div key={item.id} className='flex items-center space-x-2 bg-gray-3 px-4 py-2 rounded-full'>
+                                <Image  
+                                    src={item.image} 
+                                    width={24} 
+                                    height={24} 
+                                    alt={item.text}
+                                    className='' 
+                                />
+                                <p className='bodyParagraph'>{item.text}</p>
+                            </div>
+                        ))}    
                     </div>
                     <p className="bodyParagraph-dark max-md:text-justify">
                         Lorem Ipsum is simply dummy text of the
@@ -26,6 +38,7 @@ const GoalAndMission = () => {
                         specimen book.
                     </p>
                 </div>
+
                 <div className="w-full md:w-1/2 relative">
                     <h2 className="bodyText-dark">
                         Our Mission
