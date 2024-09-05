@@ -1,6 +1,6 @@
 // TopNavDetails
 
-export const contactdetails =[
+export const contactdetails = [
     {
         label: '+01 569 896 654',
         route: 'tel:+01 569 896 654',
@@ -13,7 +13,7 @@ export const contactdetails =[
     },
 ]
 
-export const navsocials =[
+export const navsocials = [
     {
         label: 'Instagram',
         route: 'https://www.instagram.com/',
@@ -40,12 +40,12 @@ export const navsocials =[
 //Nav details
 
 export interface NavItem {
-  label: string;
-  route: string;
-  subMenu?: NavItem[];
+    label: string;
+    route: string;
+    subMenu?: NavItem[];
 }
 
-export const navLinks : NavItem[] = [
+export const navLinks: NavItem[] = [
     {
         label: 'Home',
         route: '/',
@@ -59,22 +59,22 @@ export const navLinks : NavItem[] = [
         route: '#',
         subMenu: [
             {
-    
+
                 label: 'Our Causes',
                 route: '/our-causes',
             },
             {
-    
+
                 label: 'Volunteers',
                 route: '/volunteers',
             },
             {
-    
+
                 label: 'Projects',
                 route: '/our-projects',
             },
             {
-    
+
                 label: 'Blog',
                 route: '/blog',
             },
@@ -96,89 +96,131 @@ export const navLinks : NavItem[] = [
 
 /* Hero Section */
 
-export const HERO_SECTIONS = {
+
+interface HeroData {
+    text: string;
+    subtext: string;
+    backgroundImage: string;
+    gradientFromColor?: string;
+    gradientToColor?: string;
+    additionalClasses?: string;
+
+}
+
+export const heroData: { [key: string]: HeroData } = {
     HomePage: {
-      subtext: 'Need Help...',
-      text: 'Being Life Saver For Someone',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark-',
-      additionalClasses: 'h-screen md:h-[90vh]',
+        subtext: "Discover amazing content and explore our services.",
+        text: "Welcome to Our Website",
+        backgroundImage: "/images/home-hero.jpg",
+        gradientFromColor: 'from-black',
+        gradientToColor: 'to-dark-',
+        additionalClasses: ""
+
     },
     AboutPage: {
-      subtext: 'What We do',
-      text: 'About our Organization',
-      backgroundImage: '/images/about/hero.png',
-      gradientFromColor: 'from-black',
-      gradientToColor: '',
-      additionalClasses: '',
-      
-    },
-    CausesPage: {
-      subtext: 'Donation',
-      text: 'Our Causes',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: '',
-    },
-    EventPage: {
-      subtext: 'Donation',
-      text: 'Our Causes',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
-    },
-    TeamPage: {
-      subtext: 'Humanity People',
-      text: 'Team Member',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
-    },
-    VolunteerPage: {
-      subtext: 'Need Your Heartful Help...',
-      text: 'Become a Volunteer',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
-    },
-    ProjectPage: {
-      subtext: 'Projects',
-      text: 'Meet Charity Projects',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
-    },
-    BlogPage: {
-      subtext: 'Projects',
-      text: 'Meet Charity Projects',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
+        subtext: 'What We do',
+        text: 'About our Organization',
+        backgroundImage: "images/about/hero-background-2.png",
+        gradientFromColor: 'from-black',
+        gradientToColor: 'to-orange-1',
+        additionalClasses: "",
     },
     ContactPage: {
-      subtext: 'Contact',
-      text: 'Get in Touch',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
+        subtext: "We'd love to hear from you. Reach out today!",
+        text: "Get in Touch",
+        backgroundImage: "/images/contact-hero.jpg",
+        gradientFromColor: 'from-black',
+        gradientToColor: 'to-dark-',
+        additionalClasses: ""
     },
-    FaqPage: {
-      subtext: 'Faq',
-      text: 'General Questions',
-      backgroundImage: 'bg-hero',
-      gradientFromColor: 'from-black',
-      gradientToColor: 'to-dark',
-      additionalClasses: 'h-screen md:h-[60vh]',
-    },
-  };
+};
+
+
+
+
+// export const HERO_SECTIONS = {
+//     HomePage: {
+//       subtext: 'Need Help...',
+//       text: 'Being Life Saver For Someone',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark-',
+//       additionalClasses: 'h-screen md:h-[90vh]',
+//     },
+//     AboutPage: {
+//       subtext: 'What We do',
+//       text: 'About our Organization',
+//       backgroundImage: 'bg-aboutHero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-orange-1',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+
+//     },
+//     CausesPage: {
+//       subtext: 'Donation',
+//       text: 'Our Causes',
+//       backgroundImage: 'bg-causes',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: '',
+//     },
+//     EventPage: {
+//       subtext: 'Donation',
+//       text: 'Our Causes',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     TeamPage: {
+//       subtext: 'Humanity People',
+//       text: 'Team Member',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     VolunteerPage: {
+//       subtext: 'Need Your Heartful Help...',
+//       text: 'Become a Volunteer',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     ProjectPage: {
+//       subtext: 'Projects',
+//       text: 'Meet Charity Projects',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     BlogPage: {
+//       subtext: 'Projects',
+//       text: 'Meet Charity Projects',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     ContactPage: {
+//       subtext: 'Contact',
+//       text: 'Get in Touch',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+//     FaqPage: {
+//       subtext: 'Faq',
+//       text: 'General Questions',
+//       backgroundImage: 'bg-hero',
+//       gradientFromColor: 'from-black',
+//       gradientToColor: 'to-dark',
+//       additionalClasses: 'h-screen md:h-[60vh]',
+//     },
+// };
 
 
 
@@ -192,7 +234,7 @@ interface HomeHeroItem {
     text: string;
     subText: string;
 }
-export const HomeHero : HomeHeroItem[] = [
+export const HomeHero: HomeHeroItem[] = [
     {
         subText: "Need Help...",
         text: "Being Life Saver For Someone"
@@ -267,44 +309,44 @@ export const homeCauses = [
 
 export const WhatWeDo = [
     {
-       id: 1,
-       icon:  "/images/home/what-we-do/01.svg",
-       title: "Medicine Help",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 1,
+        icon: "/images/home/what-we-do/01.svg",
+        title: "Medicine Help",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
-       id: 2,
-       icon:  "/images/home/what-we-do/02.svg",
-       title: "Water Delivery",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 2,
+        icon: "/images/home/what-we-do/02.svg",
+        title: "Water Delivery",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
-       id: 3,
-       icon:  "/images/home/what-we-do/03.svg",
-       title: "We Care About",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 3,
+        icon: "/images/home/what-we-do/03.svg",
+        title: "We Care About",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
-       id: 4,
-       icon:  "/images/home/what-we-do/04.svg",
-       title: "Food Delivery",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 4,
+        icon: "/images/home/what-we-do/04.svg",
+        title: "Food Delivery",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
-       id: 5,
-       icon:  "/images/home/what-we-do/05.svg",
-       title: "Spread The World",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 5,
+        icon: "/images/home/what-we-do/05.svg",
+        title: "Spread The World",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
     {
-       id: 6,
-       icon:  "/images/home/what-we-do/06.svg",
-       title: "Learn Education",
-       description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
+        id: 6,
+        icon: "/images/home/what-we-do/06.svg",
+        title: "Learn Education",
+        description: "Centuries but also the leap into electronic typesetting, remaining specimen book.",
     },
 ]
 
-export const homeTestimonial =[
+export const homeTestimonial = [
     {
         id: 1,
         image: "/images/home/testimonial/image-1.png",
@@ -483,7 +525,7 @@ export const goalAndMission = [
         text: "Food For Poor People dayle",
     },
 ]
-    
+
 
 
 
@@ -522,27 +564,27 @@ export const footerLinks = [
         title: "Get Involved",
         "mainLinks": [
             {
-    
+
                 label: 'About Us',
                 route: '/about-us',
             },
             {
-    
+
                 label: 'Volunteers',
                 route: '/volunteers',
             },
             {
-    
+
                 label: 'Our Causes',
                 route: '/our-causes',
             },
             {
-    
+
                 label: 'Projects',
                 route: '/projects',
             },
             {
-    
+
                 label: 'Team',
                 route: '/our-team',
             },
@@ -552,27 +594,27 @@ export const footerLinks = [
         title: "Utility",
         "mainLinks": [
             {
-    
+
                 label: 'Style Guide',
                 route: '/#',
             },
             {
-    
+
                 label: 'Licences',
                 route: '/#',
             },
             {
-    
+
                 label: 'Password',
                 route: '/#',
             },
             {
-    
+
                 label: '404 Page',
                 route: '/#',
             },
             {
-    
+
                 label: 'Changelog',
                 route: '/#',
             },
@@ -582,35 +624,35 @@ export const footerLinks = [
         title: "Contact",
         "mainLinks": [
             {
-    
+
                 label: '660 Broklyn street, 88 New York',
                 route: '/#',
             },
             // {
-    
+
             //     label: 'Volunteers',
             //     route: '/volunteers',
             // },
             // {
-    
+
             //     label: 'Our Causes',
             //     route: '/our-causes',
             // },
             {
-    
+
                 label: 'info@charity.com',
                 route: 'mail-to:info@charity.com',
             },
             {
-    
+
                 label: '222 888 0000',
                 route: 'tel:222 888 0000',
             },
         ],
     },
-    
+
 ]
 
 
-  
-  
+
+

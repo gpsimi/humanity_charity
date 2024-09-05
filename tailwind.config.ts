@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -69,19 +69,17 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+
       backgroundImage: {
-        hero: "url('/images/home/hero/hero-background.png')",
+        "hero": "url('/images/home/hero/hero-background.png')",
         "herocardImage": "url('/images/home/hero/hero-card.png')",
         "homeVolunteers": "url('/images/home/home-volunteer.png')",
         "homeBlog": "url('/images/home/home-blog.png')",
-        "about": "url('/images/about/hero.png')",
+        "aboutHero": "url('/images/about/hero-background-2.png')",
         "aboutNewsletter": "url('/images/about/newsletter.png')",
         "causes": "url('/images/home/causes-hero.png')",
-        
       },
-      // backgroundImages: {
-      //   about: "url('/images/about/hero.png')",
-      // }
+
     },
   },
   plugins: [require("tailwindcss-animate")],
