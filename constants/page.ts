@@ -106,7 +106,6 @@ interface HeroData {
     additionalClasses?: string;
 
 }
-
 export const HERO_SECTIONS: { [key: string]: HeroData } = {
     HomePage: {
         subtext: "Discover amazing content and explore our services.",
