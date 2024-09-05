@@ -97,7 +97,7 @@ export const navLinks: NavItem[] = [
 /* Hero Section */
 
 
-interface HeroData {
+interface HeroSectionData {
     text: string;
     subtext: string;
     backgroundImage: string;
@@ -106,7 +106,7 @@ interface HeroData {
     additionalClasses?: string;
 
 }
-export const HERO_SECTIONS: { [key: string]: HeroData } = {
+export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     HomePage: {
         subtext: "Discover amazing content and explore our services.",
         text: "Welcome to Our Website",
