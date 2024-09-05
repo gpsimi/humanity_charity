@@ -107,7 +107,7 @@ interface HeroData {
 
 }
 
-export const heroData: { [key: string]: HeroData } = {
+export const HERO_SECTIONS: { [key: string]: HeroData } = {
     HomePage: {
         subtext: "Discover amazing content and explore our services.",
         text: "Welcome to Our Website",

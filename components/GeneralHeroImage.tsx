@@ -1,12 +1,12 @@
 // src/components/HeroSection.tsx
 import React from "react";
-import { heroData } from "@/constants/page";
+import { HERO_SECTIONS } from "@/constants/page";
 
-interface HeroSectionProps {
-    page: keyof typeof heroData;
+interface GeneralHeroImageProps {
+    page: keyof typeof HERO_SECTIONS;
 }
 
-const HeroSection: React.FC<HeroSectionProps> = ({ page }) => {
+const GeneralHeroImage: React.FC<GeneralHeroImageProps> = ({ page }) => {
     const {
         text,
         subtext,
@@ -14,7 +14,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ page }) => {
         gradientFromColor,
         gradientToColor,
         additionalClasses,
-    } = heroData[page];
+    } = HERO_SECTIONS[page];
 
     return (
         <section
@@ -30,7 +30,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ page }) => {
     );
 };
 
-export default HeroSection;
+export default GeneralHeroImage;
 
 
 
