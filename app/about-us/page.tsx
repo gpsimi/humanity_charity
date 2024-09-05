@@ -14,7 +14,7 @@ const AboutUs = () => {
       <AboutBrands />
       <GoalAndMission />
       <HomeTeam />
-      {/* <AboutNewsletter /> */}
+      <AboutNewsletter />
     </section>
   )
 }

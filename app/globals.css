@@ -129,16 +129,17 @@
 .inputStyle{
   @apply w-full p-2 border border-white bg-transparent focus:text-white placeholder:text-white text-white;
 }
+.inputStyle-1{
+  @apply w-[300px] py-2 px-4 border-none focus:text-dark-1 placeholder:text-dark-1 text-dark-1;
+}
+.inputStyle-2{
+  @apply  md:w-[300px] py-2 px-4 border-none focus:text-dark-1 placeholder:text-dark-1 text-dark-1;
+}
 .inputSpan{
   @apply text-gray-2;
 }
 
-.inputStyle-1{
-  @apply w-[300px] py-2 px-4 border-none focus:text-dark-1 placeholder:text-dark-1 text-dark-1;
-}
-.inputSpan{
-  @apply text-gray-2;
-}
+
 
 
 
