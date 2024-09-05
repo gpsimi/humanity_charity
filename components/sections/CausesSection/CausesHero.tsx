@@ -1,11 +1,10 @@
-import GeneralHeroImage from '@/components/GeneralHeroImage';
-// import { HERO_SECTIONS } from '@/constants/page';
 import React from 'react';
+import GeneralHeroImage from '@/components/GeneralHeroImage';
 
 const CausesHero = () => {
   return (
     <div>
-        {/* <GeneralHeroImage {...HERO_SECTIONS.CausesPage} /> */}
+        <GeneralHeroImage page="CausesPage" />
     </div>
   )
 }
