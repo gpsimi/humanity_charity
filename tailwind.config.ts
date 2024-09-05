@@ -76,6 +76,7 @@ const config = {
         "homeBlog": "url('/images/home/home-blog.png')",
         "about": "url('/images/about/hero.png')",
         "aboutNewsletter": "url('/images/about/newsletter.png')",
+        "causes": "url('/images/home/causes-hero.png')",
         
       },
       // backgroundImages: {

@@ -1,8 +1,11 @@
+import CausesHero from '@/components/sections/CausesSection/CausesHero'
 import React from 'react'
 
 const OurCauses = () => {
   return (
-    <div>OurCauses</div>
+    <section className="flex size-full flex-col">
+      <CausesHero />
+    </section>
   )
 }
 
