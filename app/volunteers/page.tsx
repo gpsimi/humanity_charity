@@ -1,4 +1,4 @@
-import { HelpFirst, MorePeople, VolunteerHero } from '@/components/sections/VolunteerSection'
+import { EventForm, HelpFirst, MorePeople, VolunteerHero } from '@/components/sections/VolunteerSection'
 import React from 'react'
 
 const Volunteers = () => {
@@ -7,6 +7,7 @@ const Volunteers = () => {
       <VolunteerHero />
       <HelpFirst />
       <MorePeople />
+      <EventForm />
     </section>
   )
 }

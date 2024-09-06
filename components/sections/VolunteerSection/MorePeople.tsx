@@ -5,7 +5,7 @@ import React from 'react'
 
 const MorePeople = () => {
     return (
-        <section className='py-2 pb-24'>
+        <section className='py-2 pb-12 md:pb-24'>
             <div className="container mx-auto max-w-[1280px] relative flex flex-col-reverse md:flex-row gap-3 md:gap-16 items-center">
             <div className="w-full md:w-1/2">
                     <Image
@@ -20,7 +20,7 @@ const MorePeople = () => {
                     <h2 className="bodyText-dark">
                         More People More <br /> Impact
                     </h2>
-                    <p className="bodyParagraph-dark">
+                    <p className="bodyParagraph-dark text-justify">
                         Lorem Ipsum is simply dummy text of the printin
                         typesetting  dummy text ever  when an unknown printer 
                         took a galley of type and scrambled it to make a type 

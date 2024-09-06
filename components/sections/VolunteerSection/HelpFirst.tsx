@@ -14,7 +14,7 @@ const HelpFirst = () => {
                     <h2 className="bodyText-dark">
                         Let's help together
                     </h2>
-                    <p className="bodyParagraph-dark">
+                    <p className="bodyParagraph-dark text-justify">
                         Lorem Ipsum is simply dummy text of the printin typesetting
                         dummy text ever  when an unknown printer took a galley of type
                         and scrambled it to make a type specimen book.
