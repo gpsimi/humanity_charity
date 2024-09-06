@@ -71,7 +71,7 @@ const FormEvent: React.FC = () => {
                     {errors.occupation && <span className="inputSpan-2">{errors.occupation.message}</span>}
                 </div>
                 <Button type="submit" className="mt-4 button-dark">
-                    Submit Now
+                    Submit
                 </Button>
             </form>
         </div>

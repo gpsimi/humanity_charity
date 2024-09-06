@@ -684,6 +684,50 @@ export const TeamTeamData = [
 ]
 
 
+/* Contact Page */
+
+
+export const contactBox = [
+    {
+        id: 1,
+        image: "/images/contact/mail.svg",
+        title: "Message",
+        link: "mailto:support@welfare.com",
+        contact: "support@welfare.com",
+    },
+    {
+        id: 2,
+        image: "/images/contact/phone.svg",
+        title: "Contact Us",
+        link: "tel:+01 (000) 265 458",
+        contact: "+01 (000) 265 458",
+    },
+]
+
+export const contactSocials = [
+    {
+        label: 'instagram',
+        icon: "/images/contact/instagram.svg",
+        link: 'https://www.instagram.com/',
+    },
+    {
+        label: 'facebook',
+        icon: "/images/contact/facebook.svg",
+        link: 'https://www.facebook.com/',
+    },
+    {
+        label: 'twitter',
+        icon: "/images/contact/twitter.svg",
+        link: 'https://www.x.com/',
+    },
+    {
+        label: 'pintrest',
+        icon: "/images/contact/pinterest.svg",
+        link: 'https://www.pintrest.com/',
+    },
+]
+
+
 
 
 
