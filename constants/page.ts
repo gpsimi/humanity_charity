@@ -491,6 +491,30 @@ export const goalAndMission = [
 ]
 
 
+/* Event Page */
+
+export const steps = [
+    {
+        id: "01",
+        title: "Create a personal profile",
+        description: "Veniam quae. Nostrum facere repellendus minus quod aut neque reiciendis."
+    },
+    {
+        id: "02",
+        title: "Add your organization",
+        description: "Veniam quae. Nostrum facere repellendus minus quod aut neque reiciendis."
+    },
+    {
+        id: "03",
+        title: "Add volunteer opportunities",
+        description: "Veniam quae. Nostrum facere repellendus minus quod aut neque reiciendis."
+    },
+    {
+        id: "04",
+        title: "You are ready to recruit!",
+        description: "Veniam quae. Nostrum facere repellendus minus quod aut neque reiciendis."
+    }
+];
 
 
 
