@@ -1,3 +1,4 @@
+import React from "react";
 import {
   HomeHero,
   HomeAbout,
@@ -10,10 +11,7 @@ import {
   HomeTeam,
   HomeEvents,
   HomeNewsletterAndBlog
-} from "@/components/sections/HomeSection/index"
-
-
-           
+} from "@/components/sections/HomeSection"  
 
 
 export default function Home() {

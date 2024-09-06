@@ -1,5 +1,6 @@
-import CausesHero from '@/components/sections/CausesSection/CausesHero'
 import React from 'react'
+
+import { CausesHero } from '@/components/sections/CausesSection'
 
 const OurCauses = () => {
   return (
