@@ -1,8 +1,13 @@
+import { HelpFirst, MorePeople, VolunteerHero } from '@/components/sections/VolunteerSection'
 import React from 'react'
 
 const Volunteers = () => {
   return (
-    <div>Volunteers</div>
+    <section className="flex size-full flex-col">
+      <VolunteerHero />
+      <HelpFirst />
+      <MorePeople />
+    </section>
   )
 }
 

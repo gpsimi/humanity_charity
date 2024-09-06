@@ -149,7 +149,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     VolunteerPage: {
         subtext: 'Need Your Heartful Help...',
         text: 'Become a Volunteer',
-        backgroundImage: '',
+        backgroundImage: '/images/volunteer/volunteer-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         additionalClasses: 'h-screen md:h-[60vh]',
