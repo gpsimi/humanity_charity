@@ -1,8 +1,12 @@
+import { ContactHero, ContactUs } from '@/components/sections/ContactSection'
 import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section className="flex size-full flex-col">
+      <ContactHero />
+      <ContactUs />
+    </section>
   )
 }
 

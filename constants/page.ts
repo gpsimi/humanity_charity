@@ -178,9 +178,9 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     ContactPage: {
         subtext: 'Contact',
         text: 'Get in Touch',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '/images/contact/contact-hero.png',
         gradientFromColor: 'from-black',
-        gradientToColor: 'to-dark',
+        gradientToColor: 'to-black',
         additionalClasses: 'h-screen md:h-[60vh]',
     },
     FaqPage: {
