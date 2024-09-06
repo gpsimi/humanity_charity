@@ -1,5 +1,10 @@
-import { EventForm, HelpFirst, MorePeople, VolunteerHero } from '@/components/sections/VolunteerSection'
 import React from 'react'
+import {
+  EventForm,
+  HelpFirst,
+  MorePeople,
+  VolunteerHero
+} from '@/components/sections/VolunteerSection'
 
 const Volunteers = () => {
   return (
