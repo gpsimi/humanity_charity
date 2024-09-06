@@ -81,6 +81,8 @@ const config = {
         "homeVolunteers": "url('/images/home/home-volunteer.png')",
         "homeBlog": "url('/images/home/home-blog.png')",
         "aboutNewsletter": "url('/images/about/newsletter.png')",
+        "TeamSubscribe": "url('/images/team/team-subscribe.png')",
+
         
       },
 

@@ -146,7 +146,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     TeamPage: {
         subtext: 'Humanity People',
         text: 'Team Member',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '/images/team/team-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         additionalClasses: 'h-screen md:h-[60vh]',
