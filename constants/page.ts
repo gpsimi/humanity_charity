@@ -131,8 +131,8 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         additionalClasses: '',
     },
     EventPage: {
-        subtext: 'Donation',
-        text: 'Our Causes',
+        subtext: 'Events',
+        text: 'Our Events',
         backgroundImage: 'bg-hero',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
@@ -149,7 +149,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     VolunteerPage: {
         subtext: 'Need Your Heartful Help...',
         text: 'Become a Volunteer',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         additionalClasses: 'h-screen md:h-[60vh]',
@@ -163,9 +163,9 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         additionalClasses: 'h-screen md:h-[60vh]',
     },
     BlogPage: {
-        subtext: 'Projects',
-        text: 'Meet Charity Projects',
-        backgroundImage: 'bg-hero',
+        subtext: '',
+        text: '',
+        backgroundImage: '',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         additionalClasses: 'h-screen md:h-[60vh]',
