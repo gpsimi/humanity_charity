@@ -53,6 +53,7 @@ const config = {
         },
         border: {
           1: '#D0D0D0',
+          2: "#E7E7E7"
         },
       },
       // borderRadius: {

@@ -26,7 +26,7 @@ const ContactForm = () => {
         console.log(data);
     };
     return (
-        <div className="mx-auto border bg-white px-6 py-8 md:px-12 md:py-12">
+        <div className="mx-auto border border-border-2 bg-white px-6 py-8 md:px-12 md:py-12">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 <div>
                     <input
