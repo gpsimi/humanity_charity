@@ -522,6 +522,168 @@ export const steps = [
 ];
 
 
+/* Team Page  */
+
+export const TeamTeamData = [
+    {
+        image: "/images/team/volunteer-1.png",
+        name: "Martin Luther",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/team/volunteer-2.png",
+        name: "Keira Knightley",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/volunteer/volunteer-3.png",
+        name: "Jack Sparrow",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/team/volunteer-4.png",
+        name: "Karen Allen",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/team/volunteer-5.png",
+        name: "Stephen Lang",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+    {
+        image: "/images/team/volunteer-6.png",
+        name: "Michelle Ray",
+        socials: [
+            {
+                label: 'instagram',
+                icon: "/images/team/volunteer-IG.png",
+                link: 'https://www.instagram.com/',
+            },
+            {
+                label: 'facebook',
+                icon: "/images/team/volunteer-Fb.png",
+                link: 'https://www.facebook.com/',
+            },
+            {
+                label: 'twitter',
+                icon: "/images/team/volunteer-Twiter.png",
+                link: 'https://www.x.com/',
+            },
+            {
+                label: 'pintrest',
+                icon: "/images/team/volunteer-Pintrest.png",
+                link: 'https://www.pintrest.com/',
+            },
+        ]
+    },
+]
+
+
 
 
 
