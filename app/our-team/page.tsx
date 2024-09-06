@@ -1,8 +1,13 @@
+import { TeamHero, TeamSubscribe, TeamTeam } from '@/components/sections/TeamSection'
 import React from 'react'
 
 const OurTeam = () => {
   return (
-    <div>OurTeam</div>
+    <section className="flex size-full flex-col">
+      <TeamHero />
+      <TeamTeam />
+      <TeamSubscribe />
+    </section>
   )
 }
 
