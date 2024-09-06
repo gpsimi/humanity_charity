@@ -1,14 +1,14 @@
-import HomeAbout from "@/components/sections/HomeSection/HomeAbout";
-import HomeCauses from "@/components/sections/HomeSection/HomeCauses";
-import HomeHero from "@/components/sections/HomeSection/HomeHero";
-import HomeProjects from "@/components/sections/HomeSection/HomeProjects";
-import HomeTestimonials from "@/components/sections/HomeSection/HomeTestimonials";
-import HomeVolunteer from "@/components/sections/HomeSection/HomeVolunteer";
-import HomeWhatWeDo from "@/components/sections/HomeSection/HomeWhatWeDo";
-import HomeSponsors from "@/components/sections/HomeSection/HomeSponsors";
-import HomeTeam from "@/components/sections/HomeSection/HomeTeam";
-import HomeEvents from "@/components/sections/HomeSection/HomeEvents";
-import HomeNewsletterAndBlog from "@/components/sections/HomeSection/HomeNewsletterAndBlog";
+import HomeAbout from "./HomeAbout";
+import HomeCauses from "./HomeCauses";
+import HomeHero from "./HomeHero";
+import HomeProjects from "./HomeProjects";
+import HomeTestimonials from "./HomeTestimonials";
+import HomeVolunteer from "./HomeVolunteer";
+import HomeWhatWeDo from "./HomeWhatWeDo";
+import HomeSponsors from "./HomeSponsors";
+import HomeTeam from "./HomeTeam";
+import HomeEvents from "./HomeEvents";
+import HomeNewsletterAndBlog from "./HomeNewsletterAndBlog";
 
 
 export {
