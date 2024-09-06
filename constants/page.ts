@@ -65,6 +65,11 @@ export const navLinks: NavItem[] = [
             },
             {
 
+                label: 'Team',
+                route: '/our-team',
+            },
+            {
+
                 label: 'Volunteers',
                 route: '/volunteers',
             },
@@ -593,8 +598,8 @@ export const footerLinks = [
             },
             {
 
-                label: 'Password',
-                route: '/#',
+                label: 'Faq',
+                route: '/faq',
             },
             {
 
