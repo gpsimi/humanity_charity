@@ -496,6 +496,17 @@ export const goalAndMission = [
 ]
 
 
+
+/* Causes Page */
+
+export const CausesCardData = [
+    
+]
+
+
+
+
+
 /* Event Page */
 
 export const steps = [
