@@ -133,9 +133,9 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     EventPage: {
         subtext: 'Events',
         text: 'Our Events',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '/images/events/event-hero.png',
         gradientFromColor: 'from-black',
-        gradientToColor: 'to-dark',
+        gradientToColor: 'to-black-400',
         additionalClasses: 'h-screen md:h-[60vh]',
     },
     TeamPage: {

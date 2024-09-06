@@ -1,8 +1,12 @@
+import GeneralHeroImage from '@/components/GeneralHeroImage'
 import React from 'react'
 
 const EventHero = () => {
   return (
-    <div>EventHero</div>
+    <div>
+      <GeneralHeroImage page="EventPage"/>
+      
+    </div>
   )
 }
 
