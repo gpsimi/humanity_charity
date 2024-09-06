@@ -1,10 +1,11 @@
 import React from 'react'
+import { EventHero } from '@/components/sections/EventsSection'
 
 const OurEvents = () => {
   return (
-    <div>
-      Our Events
-    </div>
+    <section className="flex size-full flex-col">
+      <EventHero />
+    </section>
   )
 }
 
