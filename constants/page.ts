@@ -141,7 +141,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: '/images/events/event-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-black-400',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     TeamPage: {
         subtext: 'Humanity People',
@@ -149,7 +149,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: '/images/team/team-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     VolunteerPage: {
         subtext: 'Need Your Heartful Help...',
@@ -157,7 +157,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: '/images/volunteer/volunteer-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     ProjectPage: {
         subtext: 'Projects',
@@ -165,7 +165,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: 'bg-hero',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     BlogPage: {
         subtext: '',
@@ -173,7 +173,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: '',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     ContactPage: {
         subtext: 'Contact',
@@ -181,7 +181,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: '/images/contact/contact-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-black',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
     FaqPage: {
         subtext: 'Faq',
@@ -189,7 +189,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
         backgroundImage: 'bg-hero',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
-        additionalClasses: 'h-screen md:h-[60vh]',
+        // additionalClasses: 'h-screen md:h-[60vh]',
     },
 };
 

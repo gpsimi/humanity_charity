@@ -20,7 +20,6 @@ const ContactUs = () => {
                         dummy text ever  when an unknown printer took a galley of type
                         and scrambled it to make a type specimen book.
                     </p>
-
                     <div className="flex flex-col justify-center space-y-4 my-8">
                         {contactBox.map((item) => (
                             <div key={item.id} className='flex gap-y-4'>
@@ -41,8 +40,6 @@ const ContactUs = () => {
                             </div>
                         ))}
                     </div>
-
-
                     <div>
                         <h2 className="bodyText-dark-3">
                             Follow us on social media
