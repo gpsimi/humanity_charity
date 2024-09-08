@@ -83,6 +83,7 @@ const config = {
         "homeBlog": "url('/images/home/home-blog.png')",
         "aboutNewsletter": "url('/images/about/newsletter.png')",
         "TeamSubscribe": "url('/images/team/team-subscribe.png')",
+        "FaqImage": "url('/images/faq/image.png')",
 
         
       },

@@ -1,12 +1,12 @@
 import GeneralHeroImage from '@/components/GeneralHeroImage'
 import React from 'react'
 
-const FaqHero = () => {
+const ProjectHero = () => {
   return (
     <div>
-      <GeneralHeroImage page="FaqPage" />
+      <GeneralHeroImage page="ProjectPage" />
     </div>
   )
 }
 
-export default FaqHero
+export default ProjectHero

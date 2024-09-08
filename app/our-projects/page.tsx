@@ -1,10 +1,12 @@
+import { ProjectHero, ProjectList } from '@/components/sections/ProjectSection';
 import React from 'react'
 
 const OurProjects = () => {
   return (
-    <div>
-      Our Projects
-    </div>
+    <section className="flex size-full flex-col">
+      <ProjectHero />
+      <ProjectList />
+    </section>
   )
 }
 

@@ -162,7 +162,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     ProjectPage: {
         subtext: 'Projects',
         text: 'Meet Charity Projects',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '/images/project/project-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         // additionalClasses: 'h-screen md:h-[60vh]',
@@ -186,7 +186,7 @@ export const HERO_SECTIONS: { [key: string]: HeroSectionData } = {
     FaqPage: {
         subtext: 'Faq',
         text: 'General Questions',
-        backgroundImage: 'bg-hero',
+        backgroundImage: '/images/faq/faq-hero.png',
         gradientFromColor: 'from-black',
         gradientToColor: 'to-dark',
         // additionalClasses: 'h-screen md:h-[60vh]',
