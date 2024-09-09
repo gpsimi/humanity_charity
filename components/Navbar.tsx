@@ -37,14 +37,14 @@ const Navbar: React.FC = () => {
             <div className="">
               <div className="flex items-baseline">
                 <ul className="flex gap-x-6">
-                  {navLinks.map((item: NavItem) => {
+                  {navLinks.map((item: NavItem, index: number) => {
                     const isActive =
                       pathname === item.route ||
                       pathname.startsWith(`${item.route}/`);
 
                     return (
                       <li
-                        key={item.label}
+                        key={index}
                         className="group"
                         onClick={() => handleDropdown(item.label)}
                       >
@@ -73,12 +73,15 @@ const Navbar: React.FC = () => {
                               </svg>
                             </button>
                             <ul
-                              className={`${
-                                dropdownOpen === item.label ? "block" : "hidden"
-                              } absolute mt-2 bg-white rounded-md shadow-lg`}
+                              className={`${dropdownOpen === item.label ? "block" : "hidden"
+                                } absolute mt-2 bg-white rounded-md shadow-lg`}
                             >
-                              {item.subMenu.map((subItem: NavItem) => (
-                                <li key={subItem.label}>
+                              {item.subMenu.map((subItem: NavItem, subIndex: number) => (
+                                <li key={subIndex} className={cn(
+                                  " px-3 ",
+                                  { "text-orange-1": isActive }
+                                )}
+                                >
                                   <Link
                                     href={subItem.route}
                                     className={cn(
@@ -88,6 +91,9 @@ const Navbar: React.FC = () => {
                                   >
                                     {subItem.label}
                                   </Link>
+                                  {item.subMenu && subIndex < item.subMenu.length - 1 && (
+                                    <hr className="border-border-1/80" />
+                                  )}
                                 </li>
                               ))}
                             </ul>
@@ -102,6 +108,7 @@ const Navbar: React.FC = () => {
                             {item.label}
                           </Link>
                         )}
+                        
                       </li>
                     );
                   })}
