@@ -507,7 +507,7 @@ export const CausesCardData = [
 
 
 
-/* Event Page */
+/* Volunteer Page */
 
 export const steps = [
     {

@@ -28,16 +28,17 @@ const EventForm = () => {
                         will have multiple touch points for offshoring
                     </p>
 
-                    <div className="flex items-start max-w-md">
-                        <div className="mx-auto">
-                            {steps.map((step) => (
+                    <div className="flex items-start max-w-">
+                        <div className="mx-auto mb-8">
+                            {steps.map((step, index) => (
                                 <div key={step.id} className="flex items-start space-x-4">
                                     <p className="text-white bodyText-white-2 p-2 bg-orange-2 rounded-full">
                                         {step.id}
                                     </p>
-                                    <div className='max-w-lg'>
+                                    <div className=''>
                                         <h3 className="bodyText-dark-2">{step.title}</h3>
                                         <p className="bodyParagraph-dark -mt-3 md:-mt-5">{step.description}</p>
+                                        {index < steps.length - 1 && <hr className="border-[#C5C5C5] my-4" />}
                                     </div>
                                 </div>
                             ))}
@@ -46,6 +47,25 @@ const EventForm = () => {
                             </Button>
                         </div>
                     </div>
+
+
+                    {/* <div className="">
+                        <div className="mb-8">
+                            {steps.map((step, index) => (
+                                <div key={index}>
+                                    <div className="flex items-start mb-4">
+                                        <div className="bg-red-500 text-white rounded-full h-12 w-12 flex items-center justify-center mr-4">{step.id}</div>
+                                        <div>
+                                            <h3 className="font-semibold text-lg">{step.title}</h3>
+                                            <p className="text-gray-600">{step.description}</p>
+                                            {index < steps.length - 1 && <hr className="border-[#C5C5C5] my-2" />}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <button className="bg-blue-500 text-white py-2 px-4 rounded-full">Get Started</button>
+                    </div> */}
                 </div>
                 <div className="w-full md:w-1/2">
                     <FormEvent />
