@@ -31,19 +31,19 @@ const HomeTeam = () => {
                                 />
                                 <div className='flex items-center flex-col space-y-3 mt-6'>
                                     <h3 className='text-xl font-bold font-serif'>{item.name}</h3>
-                                    <div className='flex space-x-2'>
+                                    <div className='flex '>
                                         {item.socials.map((links) => {
                                             return (
                                                 <Link
                                                     href={links.link}
                                                     target="_blank"
                                                     key={links.label}
-                                                    className=""
+                                                    className=" hover:bg-green-1 p-2 rounded-full"
                                                 >
                                                     <Image
                                                         src={links.icon}
                                                         alt={links.label}
-                                                        width={20}
+                                                        width={15}
                                                         height={14}
                                                         className='w-full'
                                                     />
