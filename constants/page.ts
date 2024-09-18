@@ -246,7 +246,7 @@ export const homeCauses = [
         image: "/images/home/home-causes/causes-1.png",
         percentage: "85%",
         title: "Big charity: build school for poor children",
-        raised: "$5M",
+        raised: "$8.5M",
         goal: "$10M",
     },
     {
@@ -254,7 +254,7 @@ export const homeCauses = [
         image: "/images/home/home-causes/causes-2.png",
         percentage: "75%",
         title: "Big charity: build school for poor children",
-        raised: "$3M",
+        raised: "$7.5M",
         goal: "$10M",
     },
     {
@@ -270,7 +270,7 @@ export const homeCauses = [
         image: "/images/home/home-causes/causes-4.png",
         percentage: "75%",
         title: "Big charity: build school for poor children",
-        raised: "$5M",
+        raised: "$7.5M",
         goal: "$10M",
     },
 ]

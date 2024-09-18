@@ -16,7 +16,8 @@ const TopNav = () => {
               height={14}
               alt='phone-icon'
             />
-            <p className='text-sm font-sans font-semibold text-green-3'>+01 569 896 654</p>
+            <Link href="tel:+01 569 896 654" className='text-sm font-sans font-semibold text-green-3'>+01 569 896 654</Link>
+            {/* <p className='text-sm font-sans font-semibold text-green-3'>+01 569 896 654</p> */}
           </div>
           <div className='flex gap-2'>
             <Image
@@ -25,7 +26,8 @@ const TopNav = () => {
               height={20}
               alt='phone-icon'
             />
-            <p className='text-sm font-sans font-semibold text-green-3'>info@charity.com</p>
+            <Link href="mailto:info@charity.com" className='text-sm font-sans font-semibold text-green-3'>info@charity.com</Link>
+            {/* <p className='text-sm font-sans font-semibold text-green-3'>info@charity.com</p> */}
           </div>
         </div>
 
