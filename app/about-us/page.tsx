@@ -1,3 +1,6 @@
+import type { Metadata } from "next";
+
+
 import React from 'react'
 import {
   AboutHero,
@@ -7,6 +10,11 @@ import {
   HomeTeam,
   AboutNewsletter,
 } from "@/components/sections/AboutSection"
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Today is a Good day",
+};
 
 const AboutUs = () => {
   return (
