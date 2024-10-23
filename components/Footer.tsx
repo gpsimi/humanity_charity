@@ -65,13 +65,7 @@ const Footer = () => {
         <div className="bg-green-4 py-8 px-5 flex">
           <ul className="flex md:flex-row flex-col gap-8 md:gap-16">
             {footerLinks.map((item) => {
-
-
-
               return (
-
-
-
                 <li key={item.title}>
                   <h4 className="text-white font-serif text-[18px] mb-4">
                     {item.title}

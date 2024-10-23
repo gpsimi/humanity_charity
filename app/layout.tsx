@@ -31,7 +31,7 @@ const sueEllen = Sue_Ellen_Francisco({
 export const metadata: Metadata = {
   title: {
     default: "Humanity Charity",
-    template: "%s | Humanity Charity",
+    template: "%s - Humanity Charity",
   },
   description: "Welcome to Humanity Charity Foundation"
   
