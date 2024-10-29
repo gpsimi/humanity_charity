@@ -500,7 +500,54 @@ export const goalAndMission = [
 /* Causes Page */
 
 export const CausesCardData = [
-    
+    {
+        id: 1,
+        image: "/images/home/home-causes/causes-1.png",
+        percentage: "85%",
+        title: "Big charity: build school for poor children",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
+    {
+        id: 2,
+        image: "/images/home/home-causes/causes-2.png",
+        percentage: "75%",
+        title: "First charity activity of this summer today",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
+    {
+        id: 3,
+        image: "/images/home/home-causes/causes-1.png",
+        percentage: "85%",
+        title: "Helping the Homeless During the Holidays",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
+    {
+        id: 4,
+        image: "/images/home/home-causes/causes-2.png",
+        percentage: "75%",
+        title: "Providing access to safe water, sanitation, and hygiene",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
+    {
+        id: 5,
+        image: "/images/home/home-causes/causes-1.png",
+        percentage: "85%",
+        title: "San Francisco is officially the first city to ban plastic",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
+    {
+        id: 6,
+        image: "/images/home/home-causes/causes-2.png",
+        percentage: "75%",
+        title: "Big charity: build school for poor children",
+        raised: "Donation: $5,000/$12,000",
+        goal: "$10M",
+    },
 ]
 
 
@@ -737,10 +784,6 @@ export const contactSocials = [
         link: 'https://www.pintrest.com/',
     },
 ]
-
-
-
-
 
 
 
