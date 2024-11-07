@@ -10,7 +10,7 @@ const Volunteers = () => {
   return (
     <section className="flex size-full flex-col">
       <VolunteerHero />
-      <HelpFirst />
+      {/* <HelpFirst /> */}
       <MorePeople />
       <EventForm />
     </section>

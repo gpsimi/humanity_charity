@@ -5,7 +5,7 @@ import React from 'react'
 
 const HelpFirst = () => {
     return (
-        <div className='py-12 md:py-24'>
+        <div className="py-12 md:py-24">
             <div className="container mx-auto max-w-[1280px] relative flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                 <div className="w-full md:w-1/2">
                     <h5 className="bodySubtext-orange">
@@ -24,7 +24,7 @@ const HelpFirst = () => {
                         galley of type and scrambled it to make a type specimen book. essentially.
                     </p>
                     <Button className="button-dark max-md:w-full" asChild>
-                        <Link href="tel:5555555555" className=''>Call : +000 365 698</Link>
+                        <Link href="tel:5555555555" className="">Call : +000 365 698</Link>
                     </Button>
                 </div>
                 <div className="w-full md:w-1/2">
