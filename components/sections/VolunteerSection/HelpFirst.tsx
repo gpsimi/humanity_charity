@@ -12,7 +12,7 @@ const HelpFirst = () => {
                         Help First
                     </h5>
                     <h2 className="bodyText-dark">
-                        Let's help together
+                        Let&apos;s help together
                     </h2>
                     <p className="bodyParagraph-dark text-justify">
                         Lorem Ipsum is simply dummy text of the printin typesetting
