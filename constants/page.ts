@@ -22,12 +22,12 @@ export const navsocials = [
     {
         label: 'Facebook',
         route: 'https://www.facebook.com/',
-        imgUrl: '/icons/nav-fb.svg',
+        imgUrl: '/icons/nav-Fb.svg',
     },
     {
         label: 'Twitter',
         route: 'https://www.x.com/',
-        imgUrl: '/icons/nav-twitter.svg',
+        imgUrl: '/icons/nav-Twitter.svg',
     },
     {
         label: 'Pinterest',
