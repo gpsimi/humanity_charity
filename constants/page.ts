@@ -9,7 +9,7 @@ export const contactdetails = [
     {
         label: 'info@charity.com',
         route: 'mailto:info@charity.com',
-        imgUrl: '/icons/Mail.svg',
+        imgUrl: '/icons/mail.svg',
     },
 ]
 
