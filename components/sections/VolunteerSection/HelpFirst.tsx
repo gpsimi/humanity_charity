@@ -5,7 +5,7 @@ import React from 'react'
 
 const HelpFirst = () => {
     return (
-        <section className='py-12 md:py-24'>
+        <div className='py-12 md:py-24'>
             <div className="container mx-auto max-w-[1280px] relative flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                 <div className="w-full md:w-1/2">
                     <h5 className="bodySubtext-orange">
@@ -37,7 +37,7 @@ const HelpFirst = () => {
                     />
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
