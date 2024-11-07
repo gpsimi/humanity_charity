@@ -33,8 +33,8 @@ const HomeAbout = () => {
           <div className='w-full md:w-1/2'>
             <div className="bg-gray-2 p-4 md:p-12 gap-y-4 flex flex-col  mx-auto">
               <ul className="grid grid-cols-2 gap-2 mb-4">
-                {homeAbout.map((item) => (
-                  <li className='flex '>
+                {homeAbout.map((item, index) => (
+                  <li className='flex' key={index}>
                     <div className='flex items-center justify-between gap-2'>
                       <Image
                         src={item.icon}
