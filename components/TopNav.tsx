@@ -24,7 +24,8 @@ const TopNav = () => {
               src="/icons/mail.svg"
               width={20}
               height={20}
-              alt='phone-icon'
+              alt='mail-icon'
+
             />
             <Link href="mailto:info@charity.com" className='text-sm font-sans font-semibold text-green-3'>info@charity.com</Link>
             {/* <p className='text-sm font-sans font-semibold text-green-3'>info@charity.com</p> */}
