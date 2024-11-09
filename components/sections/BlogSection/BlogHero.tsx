@@ -11,7 +11,7 @@ const BlogHero = () => {
                 <div className="bg-white p-12 flex flex-col space-y-5 max-w-lg  item-start">
                     <div className='flex items-start justify-start'>
 
-                        <h4 className="text-3xl font-sans uppercase">
+                        <h4 className="uppercase">
                             <span className="">
                                 March 16, 2022
                             </span>
