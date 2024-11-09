@@ -11,7 +11,7 @@ const BlogHero = () => {
                 <div className="bg-white p-12 flex flex-col space-y-5 max-w-lg  item-start">
                     <div className='flex items-start justify-start'>
 
-                        <h4 className="text-3xl font-sans  ">
+                        <h4 className="text-3xl font-sans uppercase">
                             <span className="">
                                 March 16, 2022
                             </span>
@@ -22,14 +22,16 @@ const BlogHero = () => {
                         </h4>
 
                     </div>
-                    <h2 className=''>Why Giving Is Impportant | Five Reaons to Donate</h2>
-                    <p className='bodyText-dark font-sans'>
+                    <h2 className='bodySubtext-dark'>Why Giving Is Impportant | Five Reaons to Donate</h2>
+                    <p className='bodyParagraph-dark'>
                         There are many variations of passages of Lorem
                         Ipsum available, but the majority have suffered
                     </p>
-                    <Button variant="outline" className='rounded-full border-2 border-dark-1 uppercase'>
-                        Read more
-                    </Button>
+                    <div>
+                        <Button variant="outline" className='rounded-full border-2 border-dark-1 uppercase '>
+                            Read more
+                        </Button>
+                    </div>
                 </div>
             </div>
         </section>
