@@ -742,6 +742,68 @@ export const TeamTeamData = [
 ]
 
 
+
+/* Blog Page */
+export const BlogList = [
+    {
+        id: 1,
+        image: "/images/blog/blog-1.png",
+        date: "24 March 2024",
+        category: "Education",
+        title: "Build school for poor children",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        author: "John Smith",
+        authorImage: "/images/blog/author-1.png"
+    },
+    {
+        id: 2,
+        image: "/images/blog/blog-2.png", 
+        date: "20 March 2024",
+        category: "Charity",
+        title: "First charity activity of this summer",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        author: "Sarah Johnson",
+        authorImage: "/images/blog/author-2.png"
+    },
+    {
+        id: 3,
+        image: "/images/blog/blog-3.png",
+        date: "18 March 2024",
+        category: "Donation",
+        title: "Helping the Homeless During Winter",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        author: "Michael Brown",
+        authorImage: "/images/blog/author-3.png"
+    },
+    {
+        id: 4,
+        image: "/images/blog/blog-4.png",
+        date: "15 March 2024",
+        category: "Environment",
+        title: "Clean Water Initiative Success Story",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        author: "Emily Davis",
+        authorImage: "/images/blog/author-4.png"
+    },
+    {
+        id: 5,
+        image: "/images/blog/blog-5.png",
+        date: "12 March 2024",
+        category: "Healthcare",
+        title: "Medical Camp in Rural Areas",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        author: "David Wilson",
+        authorImage: "/images/blog/author-5.png"
+    },
+]
+
+
+
+
+
+
+
+
 /* Contact Page */
 
 

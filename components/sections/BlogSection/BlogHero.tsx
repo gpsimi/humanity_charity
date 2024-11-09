@@ -19,7 +19,7 @@ const BlogHero = () => {
                         </h4>
 
                     </div>
-                    <h2 className='bodyText-dark-3'>Why Giving Is Impportant | Five Reaons to Donate</h2>
+                    <h2 className='bodyText-dark-3'>Why Giving Is Important | Five Reaons to Donate</h2>
                     <p className='bodyParagraph-dark'>
                         There are many variations of passages of Lorem
                         Ipsum available, but the majority have suffered
