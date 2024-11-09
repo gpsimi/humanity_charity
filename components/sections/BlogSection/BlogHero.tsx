@@ -27,7 +27,7 @@ const BlogHero = () => {
                         Ipsum available, but the majority have suffered
                     </p>
                     <div>
-                        <Button variant="outline" className='rounded-full border-2 border-dark-1 uppercase '>
+                        <Button variant="outline" className='button-border'>
                             Read more
                         </Button>
                     </div>
