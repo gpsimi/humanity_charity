@@ -4,11 +4,6 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 
-interface HomeHeroItem {
-    text: string;
-    subText: string;
-}
-
 const BlogHero = () => {
     return (
         <section className="flex h-screen md:h-[60vh] w-full bg-blog bg-cover bg-center relative">
