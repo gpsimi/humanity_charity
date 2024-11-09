@@ -84,6 +84,7 @@ const config = {
         "aboutNewsletter": "url('/images/about/newsletter.png')",
         "TeamSubscribe": "url('/images/team/team-subscribe.png')",
         "FaqImage": "url('/images/faq/image.png')",
+        "blog": "url('/images/blog/blog-hero.png')",
 
         
       },

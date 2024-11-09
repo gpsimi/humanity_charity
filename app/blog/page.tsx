@@ -1,10 +1,12 @@
+import { BlogHero, BlogLists } from '@/components/sections/BlogSection'
 import React from 'react'
 
 const Blog = () => {
   return (
-    <div>
-      Blog
-    </div>
+    <section className="flex size-full flex-col">
+      <BlogHero />
+      <BlogLists />
+    </section>
   )
 }
 
