@@ -9,6 +9,10 @@ import { cn } from '@/lib/utils';
 
 const Footer = () => {
 
+  const currentYear = new Date().getFullYear();
+    const startYear = 2023;
+    const yearRange = startYear === currentYear ? currentYear : `${startYear} - ${currentYear}`;
+
   const pathname = usePathname();
 
   return (
@@ -108,8 +112,8 @@ const Footer = () => {
 
       <div className="mb-2 container mx-auto">
         <p className="text-white text-center text-[14px]">
-          Copyright © Walfare | Designed by VictorFlow Templates - Powered by
-          Webflow
+          &copy; {yearRange} {" "}
+          Walfare | Designed by VictorFlow Templates - Powered by Webflow
         </p>
       </div>
     </section>
