@@ -6,6 +6,8 @@ const Blog = () => {
     <section className="flex size-full flex-col">
       <BlogHero />
       <BlogLists />
+
+      <h1></h1>
     </section>
   )
 }

@@ -32,7 +32,7 @@ const ContactForm = () => {
                     <input
                         {...register('fullName')}
                         placeholder="Enter Your Name*"
-                        className="inputStyle-3"
+                        className="inputStyle-3 focus:text-black text-black"
                     />
                     {errors.fullName && <span className="inputSpan-2">{errors.fullName.message}</span>}
                 </div>
